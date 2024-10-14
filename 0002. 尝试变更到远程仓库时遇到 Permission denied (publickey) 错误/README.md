@@ -1,6 +1,6 @@
 # 0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误
 
-## 📝 notes - 错误示例
+## 📒 notes - 错误示例
 
 ```bash
 $ git push -u origin main

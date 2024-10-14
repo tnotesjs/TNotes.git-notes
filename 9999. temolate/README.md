@@ -2,7 +2,7 @@
 
 ## 🔗 links
 
-## 📝 notes
+## 📒 notes
 
 ## 💻 demo
 
