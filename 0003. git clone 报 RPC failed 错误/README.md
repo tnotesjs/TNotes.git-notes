@@ -32,7 +32,7 @@ Resolving deltas: 100% (181/181), done.
 PS C:\Users\Tdahuyou\Desktop\notes>
 ```
 
-## 🤖 ai - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`
+## 🤖 AI - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`
 
 ```shell
 PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git
@@ -141,7 +141,7 @@ git clone https://github.com/Tdahuyou/electron.git
 
 通过以上步骤，你应该能够解决 `RPC failed; curl 56 Recv failure: Connection was reset` 的问题。如果问题仍然存在，请提供更多详细的错误信息以便进一步排查。
 
-## 🤖 ai - git 命令操作超时问题咨询
+## 🤖 AI - git 命令操作超时问题咨询
 
 我通过浏览器能够访问 https://github.com/Tdahuyou/vue/
 
@@ -191,7 +191,7 @@ git clone https://github.com/Tdahuyou/electron.git
 
 如果以上方法都不能解决问题，请提供更多的错误信息，以便进一步诊断问题所在。
 
-## 🤖 ai - 我在电脑上使用浏览器能够正常访问 github，比如 https://github.com/Tdahuyou/vscode.git/
+## 🤖 AI - 我在电脑上使用浏览器能够正常访问 github，比如 https://github.com/Tdahuyou/vscode.git/
 
 ```
 我在电脑上使用浏览器能够正常访问 github，比如 https://github.com/Tdahuyou/vscode.git/
@@ -237,7 +237,7 @@ fatal: unable to access 'https://github.com/Tdahuyou/vscode.git/': Failed to con
 
 如果以上方法都不能解决你的问题，你可以提供更多的错误信息或上下文，以便进一步诊断问题所在。
 
-## 🤖 ai - PS C:\Users\DELL\Desktop\notes\vscode> git config --get http.proxy
+## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> git config --get http.proxy
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> git config --get http.proxy
@@ -293,7 +293,7 @@ PS C:\Users\DELL\Desktop\notes\vscode>
 
 如果以上方法都不能解决问题，请提供更多的错误信息或上下文，以便进一步分析。
 
-## 🤖 ai - PS C:\Users\DELL\Desktop\notes\vscode> ping github.com
+## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> ping github.com
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> ping github.com
@@ -363,7 +363,7 @@ PS C:\Users\DELL\Desktop\notes\vscode>
 
 如果上述步骤都不能解决问题，请提供 `git pull --verbose` 的输出，这样我可以更详细地分析错误信息。
 
-## 🤖 ai - PS C:\Users\DELL\Desktop\notes\vscode> git pull
+## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> git pull
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> git pull
@@ -464,7 +464,7 @@ PS C:\Users\DELL\Desktop\notes\vscode>
 
 如果以上方法都不能解决问题，请提供 `git pull --verbose` 的完整输出，以便进一步分析错误信息。这将帮助我们更准确地定位问题所在。
 
-## 🤖 ai - PS C:\Users\DELL\Desktop\notes\vscode> ipconfig /flushdns
+## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> ipconfig /flushdns
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> ipconfig /flushdns
@@ -508,7 +508,7 @@ Already up to date.
 
 如果你在未来遇到其他问题，随时可以回来寻求帮助。希望这些信息对你有帮助！
 
-## 🤖 ai - PS C:\Users\DELL\Desktop\notes\vscode> nslookup github.com
+## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> nslookup github.com
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> nslookup github.com
@@ -557,7 +557,7 @@ Address:  20.205.243.166
 
 通过这些步骤，你应该能够减少未来遇到类似问题的可能性。如果你有其他问题或需要进一步的帮助，请随时告诉我！
 
-## 🤖 ai - const simpleGit = require('simple-git');
+## 🤖 AI - const simpleGit = require('simple-git');
 
 ```
 const simpleGit = require('simple-git');
@@ -693,7 +693,7 @@ synchronizeRepositories();
 
 这个脚本现在直接使用 `child_process` 模块来执行 Git 命令，而不是依赖 `simple-git` 库。这样做的好处是减少了外部依赖，但需要注意的是，你需要确保系统中已经安装了 Git 并且可以在命令行中访问。
 
-## 🤖 ai - 处理 C:\Users\DELL\Desktop\notes\nodejs 时出错：
+## 🤖 AI - 处理 C:\Users\DELL\Desktop\notes\nodejs 时出错：
 
 ```
 处理 C:\Users\DELL\Desktop\notes\nodejs 时出错：
@@ -820,7 +820,7 @@ synchronizeRepositories();
 
 通过这些改进，你可以更好地捕获和处理 Git 命令的输出，并确保只有在有未提交的更改时才执行 `git commit` 和 `git push`。这样可以避免因没有更改而引起的错误。
 
-## 🤖 ai - 处理 C:\Users\DELL\Desktop\notes\vite 时出错：fatal: unable to access 'https://github.com/Tdahuyou/vite.git/': Failed to connect to github.com port 443 after 21103 ms: Could not connect to server
+## 🤖 AI - 处理 C:\Users\DELL\Desktop\notes\vite 时出错：fatal: unable to access 'https://github.com/Tdahuyou/vite.git/': Failed to connect to github.com port 443 after 21103 ms: Could not connect to server
 
 ```
 处理 C:\Users\DELL\Desktop\notes\vite 时出错：fatal: unable to access 'https://github.com/Tdahuyou/vite.git/': Failed to connect to github.com port 443 after 21103 ms: Could not connect to server
