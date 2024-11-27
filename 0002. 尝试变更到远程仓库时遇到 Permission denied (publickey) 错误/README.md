@@ -4,7 +4,7 @@
 - [1. 📝 Summary](#1--summary)
 - [2. 📒 notes - 错误示例](#2--notes---错误示例)
 - [3. 🤖 AI - 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误，应该如何解决？](#3--ai---尝试将代码推送到-github-时遇到-permission-denied-(publickey)-错误应该如何解决)
-- [4. 🤖 AI - 提交的问题解决了，可是我现在每次 push 都需要输入 Enter passphrase for key '/Users/huyouda/.ssh/id_rsa':](#4--ai---提交的问题解决了可是我现在每次-push-都需要输入-enter-passphrase-for-key-'/users/huyouda/ssh/id_rsa':)
+- [4. 🤖 AI - 提交的问题解决了，可是我现在每次 push 都需要输入 Enter passphrase for key '/Users/huyouda/.ssh/id_rsa':](#4--ai---提交的问题解决了可是我现在每次-push-都需要输入-enter-passphrase-for-key-'/users/huyouda/ssh/id_rsa')
   - [4.1. 使用 `ssh-agent`](#41-使用-ssh-agent)
     - [4.1.1. 启动 `ssh-agent` 并添加密钥](#411-启动-ssh-agent-并添加密钥)
     - [4.1.2. 自动启动 `ssh-agent`](#412-自动启动-ssh-agent)
