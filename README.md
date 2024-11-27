@@ -3,6 +3,7 @@
 <!-- region:toc -->
 - [git](#git)
   - [1. 待处理](#1-待处理)
+  - [2. ⏰ 待分组](#2--待分组)
 <!-- endregion:toc -->
 
 ## 1. 待处理
@@ -11,9 +12,9 @@
   <!-- region:toc -->
   - [1. 📝 Summary](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#1--summary)
   - [2. 🤖 git 如何修改远程 origin 的 url？](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#2--git-如何修改远程-origin-的-url)
-    - [2.1. 方法 1: 使用 `git remote set-url`](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#21-方法-1:-使用-`git-remote-set-url`)
+    - [2.1. 方法 1: 使用 `git remote set-url`](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#21-方法-1:-使用-git-remote-set-url)
     - [2.2. 方法 2: 先查看再修改](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#22-方法-2:-先查看再修改)
-    - [2.3. 方法 3: 直接编辑 `.git/config` 文件](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#23-方法-3:-直接编辑-`git/config`-文件)
+    - [2.3. 方法 3: 直接编辑 `.git/config` 文件](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#23-方法-3:-直接编辑-git/config-文件)
     - [2.4. 确认修改](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#24-确认修改)
   <!-- endregion:toc -->
 
@@ -23,9 +24,9 @@
   - [2. 📒 notes - 错误示例](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#2--notes---错误示例)
   - [3. 🤖 AI - 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误，应该如何解决？](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#3--ai---尝试将代码推送到-github-时遇到-permission-denied-(publickey)-错误应该如何解决)
   - [4. 🤖 AI - 提交的问题解决了，可是我现在每次 push 都需要输入 Enter passphrase for key '/Users/huyouda/.ssh/id_rsa':](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#4--ai---提交的问题解决了可是我现在每次-push-都需要输入-enter-passphrase-for-key-'/users/huyouda/ssh/id_rsa':)
-    - [4.1. 使用 `ssh-agent`](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#41-使用-`ssh-agent`)
-      - [4.1.1. 启动 `ssh-agent` 并添加密钥](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#411-启动-`ssh-agent`-并添加密钥)
-      - [4.1.2. 自动启动 `ssh-agent`](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#412-自动启动-`ssh-agent`)
+    - [4.1. 使用 `ssh-agent`](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#41-使用-ssh-agent)
+      - [4.1.1. 启动 `ssh-agent` 并添加密钥](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#411-启动-ssh-agent-并添加密钥)
+      - [4.1.2. 自动启动 `ssh-agent`](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#412-自动启动-ssh-agent)
     - [4.2. 使用无密码短语的密钥](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#42-使用无密码短语的密钥)
     - [4.3. 使用 Keychain Access](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#43-使用-keychain-access)
   <!-- endregion:toc -->
@@ -34,7 +35,7 @@
   <!-- region:toc -->
   - [1. 📝 Summary](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#1--summary)
   - [2. 📒 notes - git clone - RPC failed](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#2--notes---git-clone---rpc-failed)
-  - [3. 🤖 AI - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#3--ai---`ps-c:\users\tdahuyou\desktop\notes>-git-clone-https://githubcom/tdahuyou/electrongit`)
+  - [3. 🤖 AI - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#3--ai---ps-c:\users\tdahuyou\desktop\notes>-git-clone-https://githubcom/tdahuyou/electrongit)
     - [3.1. 增加 Git 的缓冲区大小](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#31-增加-git-的缓冲区大小)
     - [3.2. 使用浅克隆](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#32-使用浅克隆)
     - [3.3. 检查网络连接](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#33-检查网络连接)
@@ -74,9 +75,7 @@
     - [13.10. 测试直接克隆](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#1310-测试直接克隆)
   <!-- endregion:toc -->
 
-
-
-## ⏰ 待分组
+## 2. ⏰ 待分组
 
 - [ ] [9999. template](https://github.com/Tdahuyou/git/tree/main/9999.%20template/README.md) <!-- [locale](./9999.%20template/README.md) -->  
   

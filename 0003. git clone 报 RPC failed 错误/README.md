@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 📝 Summary](#1--summary)
 - [2. 📒 notes - git clone - RPC failed](#2--notes---git-clone---rpc-failed)
-- [3. 🤖 AI - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`](#3--ai---`ps-c:\users\tdahuyou\desktop\notes>-git-clone-https://githubcom/tdahuyou/electrongit`)
+- [3. 🤖 AI - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`](#3--ai---ps-c:\users\tdahuyou\desktop\notes>-git-clone-https://githubcom/tdahuyou/electrongit)
   - [3.1. 增加 Git 的缓冲区大小](#31-增加-git-的缓冲区大小)
   - [3.2. 使用浅克隆](#32-使用浅克隆)
   - [3.3. 检查网络连接](#33-检查网络连接)
