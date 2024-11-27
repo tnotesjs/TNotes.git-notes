@@ -1,11 +1,51 @@
 # [0003. git clone 报 RPC failed 错误](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF)
 
 <!-- region:toc -->
+- [1. 📝 Summary](#1--summary)
+- [2. 📒 notes - git clone - RPC failed](#2--notes---git-clone---rpc-failed)
+- [3. 🤖 AI - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`](#3--ai---`ps-c:\users\tdahuyou\desktop\notes>-git-clone-https://githubcom/tdahuyou/electrongit`)
+  - [3.1. 增加 Git 的缓冲区大小](#31-增加-git-的缓冲区大小)
+  - [3.2. 使用浅克隆](#32-使用浅克隆)
+  - [3.3. 检查网络连接](#33-检查网络连接)
+  - [3.4. 分段克隆](#34-分段克隆)
+  - [3.5. 使用 SSH 克隆](#35-使用-ssh-克隆)
+  - [3.6. 检查防火墙和代理设置](#36-检查防火墙和代理设置)
+  - [3.7. 更新 Git](#37-更新-git)
+  - [3.8. 重试](#38-重试)
+- [4. 🤖 AI - git 命令操作超时问题咨询](#4--ai---git-命令操作超时问题咨询)
+- [5. 🤖 AI - 我在电脑上使用浏览器能够正常访问 github，比如 https://github.com/Tdahuyou/vscode.git/](#5--ai---我在电脑上使用浏览器能够正常访问-github比如-https://githubcom/tdahuyou/vscodegit/)
+- [6. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> git config --get http.proxy](#6--ai---ps-c:\users\dell\desktop\notes\vscode>-git-config---get-httpproxy)
+- [7. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> ping github.com](#7--ai---ps-c:\users\dell\desktop\notes\vscode>-ping-githubcom)
+- [8. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> git pull](#8--ai---ps-c:\users\dell\desktop\notes\vscode>-git-pull)
+  - [8.1. 检查网络连接](#81-检查网络连接)
+  - [8.2. 检查 DNS 解析](#82-检查-dns-解析)
+  - [8.3. 使用 Verbose 输出](#83-使用-verbose-输出)
+  - [8.4. 更新 Git 客户端](#84-更新-git-客户端)
+  - [8.5. 检查防火墙/安全软件](#85-检查防火墙/安全软件)
+  - [8.6. 重置 Git 配置](#86-重置-git-配置)
+  - [8.7. 测试直接克隆](#87-测试直接克隆)
+- [9. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> ipconfig /flushdns](#9--ai---ps-c:\users\dell\desktop\notes\vscode>-ipconfig-/flushdns)
+- [10. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> nslookup github.com](#10--ai---ps-c:\users\dell\desktop\notes\vscode>-nslookup-githubcom)
+- [11. 🤖 AI - const simpleGit = require('simple-git');](#11--ai---const-simplegit-=-require('simple-git');)
+  - [11.1. 解释](#111-解释)
+- [12. 🤖 AI - 处理 C:\Users\DELL\Desktop\notes\nodejs 时出错：](#12--ai---处理-c:\users\dell\desktop\notes\nodejs-时出错)
+  - [12.1. 解释](#121-解释)
+- [13. 🤖 AI - 处理 C:\Users\DELL\Desktop\notes\vite 时出错：fatal: unable to access 'https://github.com/Tdahuyou/vite.git/': Failed to connect to github.com port 443 after 21103 ms: Could not connect to server](#13--ai---处理-c:\users\dell\desktop\notes\vite-时出错fatal:-unable-to-access-'https://githubcom/tdahuyou/vitegit/':-failed-to-connect-to-githubcom-port-443-after-21103-ms:-could-not-connect-to-server)
+  - [13.1. 检查网络连接](#131-检查网络连接)
+  - [13.2. 重新刷新 DNS 缓存](#132-重新刷新-dns-缓存)
+  - [13.3. 使用不同的 DNS 服务器](#133-使用不同的-dns-服务器)
+  - [13.4. 检查防火墙和安全软件](#134-检查防火墙和安全软件)
+  - [13.5. 重置 Git 配置](#135-重置-git-配置)
+  - [13.6. 使用代理（如果有）](#136-使用代理如果有)
+  - [13.7. 检查系统时间和时区](#137-检查系统时间和时区)
+  - [13.8. 使用 verbose 输出](#138-使用-verbose-输出)
+  - [13.9. 重试机制](#139-重试机制)
+  - [13.10. 测试直接克隆](#1310-测试直接克隆)
 <!-- endregion:toc -->
-## 📝 Summary
+## 1. 📝 Summary
 - 解决办法：`git config --global http.sslVerify false`
 
-## 📒 notes - git clone - RPC failed
+## 2. 📒 notes - git clone - RPC failed
 
 ```shell
 # 克隆失败
@@ -34,7 +74,7 @@ Resolving deltas: 100% (181/181), done.
 PS C:\Users\Tdahuyou\Desktop\notes>
 ```
 
-## 🤖 AI - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`
+## 3. 🤖 AI - `PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git`
 
 ```shell
 PS C:\Users\Tdahuyou\Desktop\notes> git clone https://github.com/Tdahuyou/electron.git
@@ -53,7 +93,7 @@ fatal: fetch-pack: invalid index-pack output
 
 你遇到的错误 `RPC failed; curl 56 Recv failure: Connection was reset` 通常是由于网络连接不稳定或中断导致的。这种情况通常发生在克隆大型仓库时，因为数据传输量较大，网络连接可能会在中途断开。以下是一些解决这个问题的方法：
 
-### 1. 增加 Git 的缓冲区大小
+### 3.1. 增加 Git 的缓冲区大小
 你可以通过增加 Git 的缓冲区大小来减少这种问题的发生。使用以下命令来设置更大的缓冲区大小：
 
 ```sh
@@ -62,7 +102,7 @@ git config --global http.postBuffer 524288000
 
 这会将缓冲区大小设置为 500MB。你可以根据需要调整这个值。
 
-### 2. 使用浅克隆
+### 3.2. 使用浅克隆
 如果你不需要完整的提交历史记录，可以使用浅克隆来减少下载的数据量：
 
 ```sh
@@ -71,10 +111,10 @@ git clone --depth 1 https://github.com/Tdahuyou/electron.git
 
 这样只会克隆最新的提交，而不是整个历史记录。
 
-### 3. 检查网络连接
+### 3.3. 检查网络连接
 确保你的网络连接稳定。如果可能，尝试切换到更稳定的网络环境（例如，从移动数据切换到 Wi-Fi）。
 
-### 4. 分段克隆
+### 3.4. 分段克隆
 如果上述方法仍然无效，你可以尝试分段克隆。首先克隆一个较浅的历史记录，然后再逐步获取更多的历史记录。
 
 1. **浅克隆**：
@@ -94,7 +134,7 @@ git clone --depth 1 https://github.com/Tdahuyou/electron.git
 
    你可以逐渐增加深度，直到获取到你需要的所有历史记录。
 
-### 5. 使用 SSH 克隆
+### 3.5. 使用 SSH 克隆
 如果 HTTPS 方式仍然有问题，可以尝试使用 SSH 方式克隆仓库。首先确保你在 GitHub 上添加了 SSH 密钥，并且在本地安装了 SSH 密钥。
 
 1. **生成 SSH 密钥**（如果还没有生成的话）：
@@ -111,7 +151,7 @@ git clone --depth 1 https://github.com/Tdahuyou/electron.git
    git clone git@github.com:Tdahuyou/electron.git
    ```
 
-### 6. 检查防火墙和代理设置
+### 3.6. 检查防火墙和代理设置
 确保没有防火墙或代理设置阻止了 Git 的操作。如果使用了代理，确保配置正确：
 
 ```sh
@@ -126,7 +166,7 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
-### 7. 更新 Git
+### 3.7. 更新 Git
 确保你使用的是最新版本的 Git。有时旧版本的 Git 可能会有已知的问题，更新到最新版本可以解决这些问题。
 
 ```sh
@@ -134,7 +174,7 @@ git config --global --unset https.proxy
 # 在 Linux 或 macOS 上，可以使用包管理器更新 Git
 ```
 
-### 8. 重试
+### 3.8. 重试
 最后，尝试重新运行 `git clone` 命令：
 
 ```sh
@@ -143,7 +183,7 @@ git clone https://github.com/Tdahuyou/electron.git
 
 通过以上步骤，你应该能够解决 `RPC failed; curl 56 Recv failure: Connection was reset` 的问题。如果问题仍然存在，请提供更多详细的错误信息以便进一步排查。
 
-## 🤖 AI - git 命令操作超时问题咨询
+## 4. 🤖 AI - git 命令操作超时问题咨询
 
 我通过浏览器能够访问 https://github.com/Tdahuyou/vue/
 
@@ -193,7 +233,7 @@ git clone https://github.com/Tdahuyou/electron.git
 
 如果以上方法都不能解决问题，请提供更多的错误信息，以便进一步诊断问题所在。
 
-## 🤖 AI - 我在电脑上使用浏览器能够正常访问 github，比如 https://github.com/Tdahuyou/vscode.git/
+## 5. 🤖 AI - 我在电脑上使用浏览器能够正常访问 github，比如 https://github.com/Tdahuyou/vscode.git/
 
 ```
 我在电脑上使用浏览器能够正常访问 github，比如 https://github.com/Tdahuyou/vscode.git/
@@ -239,7 +279,7 @@ fatal: unable to access 'https://github.com/Tdahuyou/vscode.git/': Failed to con
 
 如果以上方法都不能解决你的问题，你可以提供更多的错误信息或上下文，以便进一步诊断问题所在。
 
-## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> git config --get http.proxy
+## 6. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> git config --get http.proxy
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> git config --get http.proxy
@@ -295,7 +335,7 @@ PS C:\Users\DELL\Desktop\notes\vscode>
 
 如果以上方法都不能解决问题，请提供更多的错误信息或上下文，以便进一步分析。
 
-## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> ping github.com
+## 7. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> ping github.com
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> ping github.com
@@ -365,7 +405,7 @@ PS C:\Users\DELL\Desktop\notes\vscode>
 
 如果上述步骤都不能解决问题，请提供 `git pull --verbose` 的输出，这样我可以更详细地分析错误信息。
 
-## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> git pull
+## 8. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> git pull
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> git pull
@@ -421,36 +461,36 @@ PS C:\Users\DELL\Desktop\notes\vscode>
 
 既然你已经禁用了 SSL 验证，但仍然无法连接，可以尝试以下步骤来进一步诊断问题：
 
-### 检查网络连接
+### 8.1. 检查网络连接
 - 确保没有任何临时的网络中断。你可以再次尝试 `ping` 或者使用 `curl` 来测试连接：
   ```bash
   curl -v https://github.com
   ```
 
-### 检查 DNS 解析
+### 8.2. 检查 DNS 解析
 - 尝试清除 DNS 缓存并重新解析 GitHub 的 IP 地址：
   ```cmd
   ipconfig /flushdns
   nslookup github.com
   ```
 
-### 使用 Verbose 输出
+### 8.3. 使用 Verbose 输出
 - 使用 `--verbose` 选项来获取更多关于 `git pull` 命令的详细输出，这可能会提供更多线索：
   ```bash
   git pull --verbose
   ```
 
-### 更新 Git 客户端
+### 8.4. 更新 Git 客户端
 - 确认你的 Git 客户端是最新的版本。旧版本可能存在已知的问题。你可以通过以下命令检查版本：
   ```bash
   git --version
   ```
 - 如果不是最新版本，考虑升级到最新版本。
 
-### 检查防火墙/安全软件
+### 8.5. 检查防火墙/安全软件
 - 再次确认防火墙或安全软件没有阻止 Git 的网络请求。你可以暂时禁用它们进行测试。
 
-### 重置 Git 配置
+### 8.6. 重置 Git 配置
 - 有时全局配置可能会影响特定仓库的行为。你可以尝试重置一些全局配置，看看是否能解决问题：
   ```bash
   git config --global --unset http.sslverify
@@ -458,7 +498,7 @@ PS C:\Users\DELL\Desktop\notes\vscode>
   git config --global --unset http.sslcainfo
   ```
 
-### 测试直接克隆
+### 8.7. 测试直接克隆
 - 尝试在一个新的目录中直接克隆仓库，看看是否能成功：
   ```bash
   git clone https://github.com/Tdahuyou/vscode.git
@@ -466,7 +506,7 @@ PS C:\Users\DELL\Desktop\notes\vscode>
 
 如果以上方法都不能解决问题，请提供 `git pull --verbose` 的完整输出，以便进一步分析错误信息。这将帮助我们更准确地定位问题所在。
 
-## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> ipconfig /flushdns
+## 9. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> ipconfig /flushdns
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> ipconfig /flushdns
@@ -510,7 +550,7 @@ Already up to date.
 
 如果你在未来遇到其他问题，随时可以回来寻求帮助。希望这些信息对你有帮助！
 
-## 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> nslookup github.com
+## 10. 🤖 AI - PS C:\Users\DELL\Desktop\notes\vscode> nslookup github.com
 
 ```
 PS C:\Users\DELL\Desktop\notes\vscode> nslookup github.com
@@ -559,7 +599,7 @@ Address:  20.205.243.166
 
 通过这些步骤，你应该能够减少未来遇到类似问题的可能性。如果你有其他问题或需要进一步的帮助，请随时告诉我！
 
-## 🤖 AI - const simpleGit = require('simple-git');
+## 11. 🤖 AI - const simpleGit = require('simple-git');
 
 ```
 const simpleGit = require('simple-git');
@@ -673,7 +713,7 @@ async function synchronizeRepositories() {
 synchronizeRepositories();
 ```
 
-### 解释
+### 11.1. 解释
 1. **引入 `child_process`**：
    - 使用 `require('child_process')` 引入 `child_process` 模块，并从中提取 `exec` 函数。
 
@@ -695,7 +735,7 @@ synchronizeRepositories();
 
 这个脚本现在直接使用 `child_process` 模块来执行 Git 命令，而不是依赖 `simple-git` 库。这样做的好处是减少了外部依赖，但需要注意的是，你需要确保系统中已经安装了 Git 并且可以在命令行中访问。
 
-## 🤖 AI - 处理 C:\Users\DELL\Desktop\notes\nodejs 时出错：
+## 12. 🤖 AI - 处理 C:\Users\DELL\Desktop\notes\nodejs 时出错：
 
 ```
 处理 C:\Users\DELL\Desktop\notes\nodejs 时出错：
@@ -802,7 +842,7 @@ async function synchronizeRepositories() {
 synchronizeRepositories();
 ```
 
-### 解释
+### 12.1. 解释
 1. **`runCommand` 函数**：
    - 这个辅助函数用于执行命令并返回 Promise。它捕获标准输出和标准错误，并在成功时解析 Promise，在失败时拒绝 Promise。
 
@@ -822,7 +862,7 @@ synchronizeRepositories();
 
 通过这些改进，你可以更好地捕获和处理 Git 命令的输出，并确保只有在有未提交的更改时才执行 `git commit` 和 `git push`。这样可以避免因没有更改而引起的错误。
 
-## 🤖 AI - 处理 C:\Users\DELL\Desktop\notes\vite 时出错：fatal: unable to access 'https://github.com/Tdahuyou/vite.git/': Failed to connect to github.com port 443 after 21103 ms: Could not connect to server
+## 13. 🤖 AI - 处理 C:\Users\DELL\Desktop\notes\vite 时出错：fatal: unable to access 'https://github.com/Tdahuyou/vite.git/': Failed to connect to github.com port 443 after 21103 ms: Could not connect to server
 
 ```
 处理 C:\Users\DELL\Desktop\notes\vite 时出错：fatal: unable to access 'https://github.com/Tdahuyou/vite.git/': Failed to connect to github.com port 443 after 21103 ms: Could not connect to server
@@ -853,16 +893,16 @@ fatal: unable to access 'https://github.com/Tdahuyou/webpack_.git/': Failed to c
 
 从错误信息来看，多个仓库在执行 `git pull` 时都遇到了连接到 GitHub 的问题。这表明可能是一个网络或配置问题，而不是特定于某个仓库的问题。以下是一些可能的解决方案和进一步的诊断步骤：
 
-### 1. 检查网络连接
+### 13.1. 检查网络连接
 确保你的网络连接是稳定的，并且没有临时中断。你可以尝试访问其他网站来确认网络是否正常。
 
-### 2. 重新刷新 DNS 缓存
+### 13.2. 重新刷新 DNS 缓存
 你之前通过刷新 DNS 缓存解决了问题，但似乎这个问题又出现了。可以再次尝试刷新 DNS 缓存：
 ```bash
 ipconfig /flushdns
 ```
 
-### 3. 使用不同的 DNS 服务器
+### 13.3. 使用不同的 DNS 服务器
 考虑更换为更可靠的公共 DNS 服务器，如 Google 的 8.8.8.8 和 8.8.4.4 或 Cloudflare 的 1.1.1.1。在 Windows 上，你可以通过以下步骤更改 DNS 服务器设置：
 - 打开“控制面板” > “网络和 Internet” > “网络和共享中心”。
 - 点击左侧的“更改适配器设置”。
@@ -871,10 +911,10 @@ ipconfig /flushdns
 - 选择“使用下面的 DNS 服务器地址”，输入你选择的 DNS 服务器地址，例如 8.8.8.8 和 8.8.4.4。
 - 点击“确定”保存设置。
 
-### 4. 检查防火墙和安全软件
+### 13.4. 检查防火墙和安全软件
 确保防火墙或安全软件没有阻止 Git 的网络请求。你可以暂时禁用它们进行测试，如果发现是它们引起的问题，可以配置相应的规则来允许 Git 通过。
 
-### 5. 重置 Git 配置
+### 13.5. 重置 Git 配置
 有时全局配置可能会影响特定仓库的行为。你可以尝试重置一些全局配置，看看是否能解决问题：
 ```bash
 git config --global --unset http.sslverify
@@ -882,7 +922,7 @@ git config --global --unset http.sslbackend
 git config --global --unset http.sslcainfo
 ```
 
-### 6. 使用代理（如果有）
+### 13.6. 使用代理（如果有）
 如果你的网络环境需要通过代理服务器上网，确保 Git 也配置了正确的代理：
 ```bash
 git config --global http.proxy 'http://proxy.example.com:8080'
@@ -894,13 +934,13 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
-### 7. 检查系统时间和时区
+### 13.7. 检查系统时间和时区
 确保你的系统时间和时区是正确的，因为 SSL 证书验证依赖于正确的时间。你可以通过以下步骤检查和设置系统时间：
 - 打开“控制面板” > “日期和时间”。
 - 确认日期、时间和时区都是正确的。
 - 你可以选择自动同步时间以保持准确性。
 
-### 8. 使用 verbose 输出
+### 13.8. 使用 verbose 输出
 为了更好地了解具体的错误信息，可以在执行 `git pull` 时使用 `--verbose` 选项：
 ```javascript
 async function runCommand(command, dir) {
@@ -921,7 +961,7 @@ async function runCommand(command, dir) {
 await runCommand('git pull --verbose', dir);
 ```
 
-### 9. 重试机制
+### 13.9. 重试机制
 在脚本中添加重试机制，以便在网络不稳定时自动重试几次：
 ```javascript
 async function runCommandWithRetry(command, dir, maxRetries = 3) {
@@ -944,7 +984,7 @@ async function runCommandWithRetry(command, dir, maxRetries = 3) {
 await runCommandWithRetry('git pull --verbose', dir);
 ```
 
-### 10. 测试直接克隆
+### 13.10. 测试直接克隆
 尝试在一个新的目录中直接克隆仓库，看看是否能成功：
 ```bash
 git clone https://github.com/Tdahuyou/vite.git
