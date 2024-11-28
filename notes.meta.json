@@ -1,3 +1,10 @@
 {
-    "ignoreDirs": ["md-imgs", ".git", ".vscode"]
+  "ignoreDirs": [
+    ".git",
+    "md-imgs",
+    ".vscode",
+    "node_modules",
+    "0000",
+    "9999. templates"
+  ]
 }

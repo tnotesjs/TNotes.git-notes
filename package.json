@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "merge": "node ./node_modules/tnotes --mergeREADME --repoName=git"
+    }
+}
