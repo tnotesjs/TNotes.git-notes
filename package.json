@@ -1,7 +1,8 @@
 {
     "scripts": {
-        "merge": "      node ./node_modules/tnotes --mergeREADME        --repoName=git",
-        "distribute": " node ./node_modules/tnotes --distributeREADME   --repoName=git",
-        "sync": "       node ./node_modules/tnotes --syncREADME         --repoName=git"
+        "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=git",
+        "update": "     node ./node_modules/tnotes  --updateREADME         --repoName=git",
+        "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=git",
+        "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=git"
     }
 }

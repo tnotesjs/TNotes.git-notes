@@ -11,7 +11,7 @@
 
 要修改 Git 仓库中远程 `origin` 的 URL，你可以使用 `git remote set-url` 命令。
 
-```bas
+```sh
 # 可以先查看当前的远程仓库 URL，然后根据需要进行修改
 git remote -v # 这将显示所有远程仓库（包括 origin）的 fetch 和 push URL。
 
@@ -144,7 +144,7 @@ ssh-add ~/.ssh/id_ed25519
 
 ## 2. 📒 git clone => ❌ RPC failed
 
-```bash
+```shell
 # 克隆失败
 git clone https://github.com/Tdahuyou/electron.git
 # 输出日志：日志提示 RPC failed
@@ -194,7 +194,7 @@ git clone https://github.com/Tdahuyou/electron.git
 如果上述方法仍然无效，你可以尝试分段克隆。首先克隆一个较浅的历史记录，然后再逐步获取更多的历史记录。
 
 
-```bash
+```sh
 # 浅克隆
 git clone --depth 1 https://github.com/Tdahuyou/electron.git
 
@@ -210,7 +210,7 @@ git fetch --depth=100
 
 如果 HTTPS 方式仍然有问题，可以尝试使用 SSH 方式克隆仓库。首先确保你在 GitHub 上添加了 SSH 密钥，并且在本地安装了 SSH 密钥。
 
-```bash
+```sh
 # 生成 SSH 密钥（如果还没有生成的话）：
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
@@ -225,14 +225,14 @@ git clone git@github.com:Tdahuyou/electron.git
 
 确保没有防火墙或代理设置阻止了 Git 的操作。如果使用了代理，确保配置正确：
 
-```bash
+```sh
 git config --global http.proxy http://your_proxy_server:port
 git config --global https.proxy http://your_proxy_server:port
 ```
 
 如果不需要代理，取消代理设置：
 
-```bash
+```sh
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
@@ -241,7 +241,7 @@ git config --global --unset https.proxy
 
 确保你使用的是最新版本的 Git。有时旧版本的 Git 可能会有已知的问题，更新到最新版本可以解决这些问题。
 
-```bas
+```sh
 # 在 Windows 上，可以从 Git 官方网站下载最新版本的安装程序
 # 在 Linux 或 macOS 上，可以使用包管理器更新 Git
 ```
@@ -313,7 +313,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -N ""
 
 ## 1. 📒 常见的超时问题
 
-```bash
+```shell
 # 在执行某些需要和远程仓库打交道的 git 命令时，可能会出现类似下面这样的超时错误：
 unable to access 'https://xxx/': Failed to connect to github.com port 443 after 21106 ms: Could not connect to server
 
@@ -344,7 +344,7 @@ Git 的配置有多个层次，按优先级从高到低排列如下：
 
 你可以使用不同的参数来查看不同层次的配置：
 
-```bash
+```shell
 # 查看本地仓库配置
 git config --local --get http.proxy
 git config --local --get https.proxy
@@ -360,20 +360,20 @@ git config --system --get https.proxy
 
 ## 3. 💻 设置代理配置 => git config http.proxy 代理地址
 
-```bash
+```shell
 # 设置 HTTP 代理
 # 如果你想设置设置 HTTP 代理，可以使用以下命令：
-$ git config --local http.proxy http://127.0.0.1:7897
-$ git config --local https.proxy http://127.0.0.1:7897
-$ git config --global http.proxy http://127.0.0.1:7897
-$ git config --global https.proxy http://127.0.0.1:7897
-$ git config --system http.proxy http://127.0.0.1:7897
-$ git config --system https.proxy http://127.0.0.1:7897
+git config --local http.proxy http://127.0.0.1:7897
+git config --local https.proxy http://127.0.0.1:7897
+git config --global http.proxy http://127.0.0.1:7897
+git config --global https.proxy http://127.0.0.1:7897
+git config --system http.proxy http://127.0.0.1:7897
+git config --system https.proxy http://127.0.0.1:7897
 ```
 
 ## 4. 💻 取消代理配置 => git config --global --unset http.proxy
 
-```bash
+```shell
 git config --local --unset http.proxy
 git config --local --unset https.proxy
 git config --global --unset http.proxy
