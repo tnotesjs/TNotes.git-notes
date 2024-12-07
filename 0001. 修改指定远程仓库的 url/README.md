@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📒 使用 `git remote set-url` 命令](#1--使用-git-remote-set-url-命令)
-- [2. 📒 直接编辑 `.git/config` 文件](#2--直接编辑-git/config-文件)
+- [2. 📒 直接编辑 `.git/config` 文件](#2--直接编辑-gitconfig-文件)
 <!-- endregion:toc -->
 
 
