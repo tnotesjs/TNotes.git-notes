@@ -1,8 +1,18 @@
 {
-    "scripts": {
-        "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=git",
-        "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=git",
-        "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=git",
-        "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=git"
-    }
+  "scripts": {
+    "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=git",
+    "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=git",
+    "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=git",
+    "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=git"
+  },
+  "tnotesConfig": {
+    "ignoreDirs": [
+      ".git",
+      "md-imgs",
+      ".vscode",
+      "node_modules",
+      "0000",
+      "9999. templates"
+    ]
+  }
 }
