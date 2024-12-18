@@ -1,13 +1,13 @@
 # [0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF)
 
 <!-- region:toc -->
-- [1. 📒 错误示例](#1--错误示例)
-- [2. 🤖 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误，应该如何解决？](#2--尝试将代码推送到-github-时遇到-permission-denied-(publickey)-错误应该如何解决)
+- [1. 💻 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误的解决流程](#1--尝试将代码推送到-github-时遇到-permission-denied-(publickey)-错误的解决流程)
 <!-- endregion:toc -->
 
-## 1. 📒 错误示例
+## 1. 💻 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误的解决流程
 
 ```bash
+# 错误示例
 $ git push -u origin main
 git@github.com: Permission denied (publickey).
 fatal: Could not read from remote repository.
@@ -15,8 +15,6 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 ```
-
-## 2. 🤖 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误，应该如何解决？
 
 当你尝试将代码推送到 GitHub 时遇到 `Permission denied (publickey).` 错误，**这通常意味着你的 SSH 密钥没有被正确配置或者没有被添加到 GitHub 账户中**。以下是一些解决这个问题的步骤：
 

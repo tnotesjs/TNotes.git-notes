@@ -1,8 +1,8 @@
 # [0003. git clone 报 RPC failed 错误](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF)
 
 <!-- region:toc -->
-- [1. 📒 git clone => ❌ RPC failed](#1--git-clone-=>--rpc-failed)
-- [2. 📒 其他手段](#2--其他手段)
+- [1. 💻 git clone => ❌ RPC failed](#1--git-clone-=>--rpc-failed)
+- [2. 💻 其他解决方案](#2--其他解决方案)
   - [2.1. 检查网络连接](#21-检查网络连接)
   - [2.2. 分段克隆](#22-分段克隆)
   - [2.3. 使用 SSH 克隆](#23-使用-ssh-克隆)
@@ -11,7 +11,7 @@
 <!-- endregion:toc -->
 - 解决办法：`git config --global http.sslVerify false`
 
-## 1. 📒 git clone => ❌ RPC failed
+## 1. 💻 git clone => ❌ RPC failed
 
 ```shell
 # 克隆失败
@@ -52,7 +52,7 @@ git clone https://github.com/Tdahuyou/electron.git
 # Resolving deltas: 100% (181/181), done. ✅
 ```
 
-## 2. 📒 其他手段
+## 2. 💻 其他解决方案
 
 ### 2.1. 检查网络连接
 

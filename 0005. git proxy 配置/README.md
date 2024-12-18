@@ -1,14 +1,14 @@
 # [0005. git proxy 配置](https://github.com/Tdahuyou/git/tree/main/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE)
 
 <!-- region:toc -->
-- [1. 📒 常见的超时问题](#1--常见的超时问题)
+- [1. 📒 常见的超时报错 443 日志](#1--常见的超时报错-443-日志)
 - [2. 💻 查看代理配置 => git config --get http.proxy](#2--查看代理配置-=>-git-config---get-httpproxy)
 - [3. 💻 设置代理配置 => git config http.proxy 代理地址](#3--设置代理配置-=>-git-config-httpproxy-代理地址)
 - [4. 💻 取消代理配置 => git config --global --unset http.proxy](#4--取消代理配置-=>-git-config---global---unset-httpproxy)
 - [5. 💻 验证配置 => git config --list](#5--验证配置-=>-git-config---list)
 <!-- endregion:toc -->
 
-## 1. 📒 常见的超时问题
+## 1. 📒 常见的超时报错 443 日志
 
 ```shell
 # 在执行某些需要和远程仓库打交道的 git 命令时，可能会出现类似下面这样的超时错误：
