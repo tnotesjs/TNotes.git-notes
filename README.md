@@ -2,13 +2,20 @@
 
 <!-- region:toc -->
 - [git](#git)
-  - [1. 更新本地关联的远程仓库地址](#1-更新本地关联的远程仓库地址)
-  - [2. 配置 git 代理](#2-配置-git-代理)
-  - [3. 错误处理](#3-错误处理)
+  - [1. 分支](#1-分支)
+  - [2. 远程仓库](#2-远程仓库)
+  - [3. git 配置](#3-git-配置)
+  - [4. 错误处理](#4-错误处理)
 <!-- endregion:toc -->
 
 
-## 1. 更新本地关联的远程仓库地址
+## 1. 分支
+
+- [ ] [0006. 分支重命名](https://github.com/Tdahuyou/git/tree/main/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md) <!-- [locale](./0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md) -->  
+  - [1. ⏰](https://github.com/Tdahuyou/git/tree/main/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#1-)
+  
+
+## 2. 远程仓库
 
 - [ ] [0001. 修改指定远程仓库的 url](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md) <!-- [locale](./0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md) -->  
   - [1. 📒 使用 `git remote set-url` 命令](https://github.com/Tdahuyou/git/tree/main/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#1--使用-git-remote-set-url-命令)
@@ -16,7 +23,7 @@
   
   
 
-## 2. 配置 git 代理
+## 3. git 配置
 
 - [ ] [0005. git proxy 配置](https://github.com/Tdahuyou/git/tree/main/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md) <!-- [locale](./0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md) -->  
   - [1. 📒 常见的超时问题](https://github.com/Tdahuyou/git/tree/main/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md#1--常见的超时问题)
@@ -26,7 +33,9 @@
   - [5. 💻 验证配置 => git config --list](https://github.com/Tdahuyou/git/tree/main/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md#5--验证配置-=>-git-config---list)
   
 
-## 3. 错误处理
+## 4. 错误处理
+
+记录一些在开发时遇到的 git 错误。
 
 - [ ] [0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md) <!-- [locale](./0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md) -->  
   - [1. 📒 错误示例](https://github.com/Tdahuyou/git/tree/main/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#1--错误示例)
@@ -40,12 +49,12 @@
   
 
 - [ ] [0003. git clone 报 RPC failed 错误](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md) <!-- [locale](./0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md) -->  
-  - [1. 📝 Summary](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#1--summary)
-  - [2. 📒 git clone => ❌ RPC failed](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#2--git-clone-=>--rpc-failed)
-  - [3. 📒 其他手段](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#3--其他手段)
-    - [3.1. 检查网络连接](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#31-检查网络连接)
-    - [3.2. 分段克隆](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#32-分段克隆)
-    - [3.3. 使用 SSH 克隆](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#33-使用-ssh-克隆)
-    - [3.4. 检查防火墙和代理设置](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#34-检查防火墙和代理设置)
-    - [3.5. 更新 Git](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#35-更新-git)
+  - [1. 📒 git clone => ❌ RPC failed](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#1--git-clone-=>--rpc-failed)
+  - [2. 📒 其他手段](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#2--其他手段)
+    - [2.1. 检查网络连接](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#21-检查网络连接)
+    - [2.2. 分段克隆](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#22-分段克隆)
+    - [2.3. 使用 SSH 克隆](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#23-使用-ssh-克隆)
+    - [2.4. 检查防火墙和代理设置](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#24-检查防火墙和代理设置)
+    - [2.5. 更新 Git](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#25-更新-git)
+  - 解决办法：`git config --global http.sslVerify false`
   

@@ -1,21 +1,17 @@
 # [0003. git clone 报 RPC failed 错误](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF)
 
 <!-- region:toc -->
-- [1. 📝 Summary](#1--summary)
-- [2. 📒 git clone => ❌ RPC failed](#2--git-clone-=>--rpc-failed)
-- [3. 📒 其他手段](#3--其他手段)
-  - [3.1. 检查网络连接](#31-检查网络连接)
-  - [3.2. 分段克隆](#32-分段克隆)
-  - [3.3. 使用 SSH 克隆](#33-使用-ssh-克隆)
-  - [3.4. 检查防火墙和代理设置](#34-检查防火墙和代理设置)
-  - [3.5. 更新 Git](#35-更新-git)
+- [1. 📒 git clone => ❌ RPC failed](#1--git-clone-=>--rpc-failed)
+- [2. 📒 其他手段](#2--其他手段)
+  - [2.1. 检查网络连接](#21-检查网络连接)
+  - [2.2. 分段克隆](#22-分段克隆)
+  - [2.3. 使用 SSH 克隆](#23-使用-ssh-克隆)
+  - [2.4. 检查防火墙和代理设置](#24-检查防火墙和代理设置)
+  - [2.5. 更新 Git](#25-更新-git)
 <!-- endregion:toc -->
-
-## 1. 📝 Summary
-
 - 解决办法：`git config --global http.sslVerify false`
 
-## 2. 📒 git clone => ❌ RPC failed
+## 1. 📒 git clone => ❌ RPC failed
 
 ```shell
 # 克隆失败
@@ -56,13 +52,13 @@ git clone https://github.com/Tdahuyou/electron.git
 # Resolving deltas: 100% (181/181), done. ✅
 ```
 
-## 3. 📒 其他手段
+## 2. 📒 其他手段
 
-### 3.1. 检查网络连接
+### 2.1. 检查网络连接
 
 确保你的网络连接稳定。如果可能，尝试切换到更稳定的网络环境（例如，从移动数据切换到 Wi-Fi）。
 
-### 3.2. 分段克隆
+### 2.2. 分段克隆
 
 如果上述方法仍然无效，你可以尝试分段克隆。首先克隆一个较浅的历史记录，然后再逐步获取更多的历史记录。
 
@@ -79,7 +75,7 @@ git fetch --depth=100
 # 你可以逐渐增加深度，直到获取到你需要的所有历史记录。
 ```
 
-### 3.3. 使用 SSH 克隆
+### 2.3. 使用 SSH 克隆
 
 如果 HTTPS 方式仍然有问题，可以尝试使用 SSH 方式克隆仓库。首先确保你在 GitHub 上添加了 SSH 密钥，并且在本地安装了 SSH 密钥。
 
@@ -94,7 +90,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 git clone git@github.com:Tdahuyou/electron.git
 ```
 
-### 3.4. 检查防火墙和代理设置
+### 2.4. 检查防火墙和代理设置
 
 确保没有防火墙或代理设置阻止了 Git 的操作。如果使用了代理，确保配置正确：
 
@@ -110,7 +106,7 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
-### 3.5. 更新 Git
+### 2.5. 更新 Git
 
 确保你使用的是最新版本的 Git。有时旧版本的 Git 可能会有已知的问题，更新到最新版本可以解决这些问题。
 
