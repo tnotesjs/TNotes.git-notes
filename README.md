@@ -36,6 +36,10 @@
   - [5. 💻 验证配置 => git config --list](https://github.com/Tdahuyou/git/tree/main/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md#5--验证配置-=>-git-config---list)
   
 
+- [ ] [0007. 一个项目多个 .gitignore 文件](https://github.com/Tdahuyou/git/tree/main/0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md) <!-- [locale](./0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md) -->  
+  - [1. ⏰](https://github.com/Tdahuyou/git/tree/main/0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md#1-)
+  
+
 ## 4. 错误处理
 
 记录一些在开发时遇到的 git 错误。
