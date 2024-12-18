@@ -11,6 +11,9 @@
       "md-imgs",
       ".vscode",
       "node_modules"
+    ],
+    "doneNoteIds": [
+      "0006"
     ]
   }
 }
