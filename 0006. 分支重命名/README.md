@@ -31,24 +31,24 @@ git branch -m 旧分支名 新分支名
 
 1. **重命名本地分支**：首先按照上述方法重命名本地分支。
    
-  ```bash
-  git branch -m 旧分支名 新分支名
-  # 需要注意分支名不要加上前缀 remotes/xxx/，比如：
-  # remotes/origin/old_branch 这么写是不对的
-  # old_branch 这么写是对的
-  ```
+```bash
+git branch -m 旧分支名 新分支名
+# 需要注意分支名不要加上前缀 remotes/xxx/，比如：
+# remotes/origin/old_branch 这么写是不对的
+# old_branch 这么写是对的
+```
 
 2. **删除旧的远程分支**：使用 `git push` 命令加上 `--delete` 参数来删除远程仓库上的旧分支。
 
-  ```bash
-  git push origin --delete 旧分支名
-  ```
+```bash
+git push origin --delete 旧分支名
+```
 
 3. **推送重命名后的本地分支到远程仓库**：使用 `git push` 命令将本地重命名后的分支推送到远程仓库，并设置跟踪关系。
 
-  ```bash
-  git push origin 新分支名 --set-upstream
-  ```
+```bash
+git push origin 新分支名 --set-upstream
+```
 
 ### 1.3. 注意事项
 
