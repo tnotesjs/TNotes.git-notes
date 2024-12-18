@@ -36,8 +36,9 @@
   - [5. 💻 验证配置 => git config --list](https://github.com/Tdahuyou/git/tree/main/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md#5--验证配置-=>-git-config---list)
   
 
-- [ ] [0007. 一个项目多个 .gitignore 文件](https://github.com/Tdahuyou/git/tree/main/0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md) <!-- [locale](./0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md) -->  
-  - [1. ⏰](https://github.com/Tdahuyou/git/tree/main/0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md#1-)
+- [x] [0007. 一个项目多个 .gitignore 文件](https://github.com/Tdahuyou/git/tree/main/0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md) <!-- [locale](./0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md) -->  
+  - [1. 📒 在一个项目中可以有多个 .gitignore 文件](https://github.com/Tdahuyou/git/tree/main/0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md#1--在一个项目中可以有多个-gitignore-文件)
+  - 一个项目中可以有多个 `.gitignore` 文件，但通常只需要一个位于根目录下就足够了。如果有特殊情况需要更细粒度地控制不同目录下的忽略规则，那么可以在相应的子目录下添加 `.gitignore` 文件。
   
 
 ## 4. 错误处理
