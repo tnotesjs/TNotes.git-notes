@@ -12,7 +12,10 @@
 ## 1. 分支
 
 - [ ] [0006. 分支重命名](https://github.com/Tdahuyou/git/tree/main/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md) <!-- [locale](./0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md) -->  
-  - [1. ⏰](https://github.com/Tdahuyou/git/tree/main/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#1-)
+  - [1. 💻 分支重命名](https://github.com/Tdahuyou/git/tree/main/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#1--分支重命名)
+    - [1.1. 重命名本地分支](https://github.com/Tdahuyou/git/tree/main/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#11-重命名本地分支)
+    - [1.2. 重命名远程分支](https://github.com/Tdahuyou/git/tree/main/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#12-重命名远程分支)
+    - [1.3. 注意事项](https://github.com/Tdahuyou/git/tree/main/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#13-注意事项)
   
 
 ## 2. 远程仓库
