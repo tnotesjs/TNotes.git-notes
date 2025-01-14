@@ -2,10 +2,10 @@
 
 <!-- region:toc -->
 - [1. 📒 常见的超时报错 443 日志](#1--常见的超时报错-443-日志)
-- [2. 💻 查看代理配置 => git config --get http.proxy](#2--查看代理配置-=>-git-config---get-httpproxy)
-- [3. 💻 设置代理配置 => git config http.proxy 代理地址](#3--设置代理配置-=>-git-config-httpproxy-代理地址)
-- [4. 💻 取消代理配置 => git config --global --unset http.proxy](#4--取消代理配置-=>-git-config---global---unset-httpproxy)
-- [5. 💻 验证配置 => git config --list](#5--验证配置-=>-git-config---list)
+- [2. 💻 查看代理配置 => git config --get http.proxy](#2--查看代理配置--git-config---get-httpproxy)
+- [3. 💻 设置代理配置 => git config http.proxy 代理地址](#3--设置代理配置--git-config-httpproxy-代理地址)
+- [4. 💻 取消代理配置 => git config --global --unset http.proxy](#4--取消代理配置--git-config---global---unset-httpproxy)
+- [5. 💻 验证配置 => git config --list](#5--验证配置--git-config---list)
 <!-- endregion:toc -->
 
 ## 1. 📒 常见的超时报错 443 日志
