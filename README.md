@@ -6,7 +6,7 @@
   - [2. 远程仓库](#2-远程仓库)
   - [3. git 配置](#3-git-配置)
   - [4. 错误处理](#4-错误处理)
-  - [5. ⏰ 待分组](#5--待分组)
+  - [5. 学习 git 命令](#5-学习-git-命令)
 <!-- endregion:toc -->
 
 
@@ -67,9 +67,9 @@
   - 解决办法：`git config --global http.sslVerify false`
   
 
-## 5. ⏰ 待分组
+## 5. 学习 git 命令
 
-- [x] [0008. git stash](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md) <!-- [locale](./0008.%20git%20stash/README.md) -->  
+- [ ] [0008. git stash](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md) <!-- [locale](./0008.%20git%20stash/README.md) -->  
   - [1. 📒 `git stash` 命令的作用](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#1--git-stash-命令的作用)
   - [2. 📒 `git stash` 命令列表](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#2--git-stash-命令列表)
   - [3. 📒 `git stash` 命令的基本使用](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#3--git-stash-命令的基本使用)
@@ -85,10 +85,6 @@
   - [4. 📒 `git stash` 的适用场景](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#4--git-stash-的适用场景)
   - `git stash` 是一个非常实用的命令，适用于需要临时存储更改的场景！
   
-
-
-
-## ⏰ 待分组
 
 - [ ] [0009. git status](https://github.com/Tdahuyou/git/tree/main/0009.%20git%20status/README.md) <!-- [locale](./0009.%20git%20status/README.md) -->  
   - [1. 📒 `git status` 命令的作用](https://github.com/Tdahuyou/git/tree/main/0009.%20git%20status/README.md#1--git-status-命令的作用)
