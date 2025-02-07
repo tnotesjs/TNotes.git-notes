@@ -65,3 +65,24 @@
     - [2.5. 更新 Git](https://github.com/Tdahuyou/git/tree/main/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#25-更新-git)
   - 解决办法：`git config --global http.sslVerify false`
   
+
+
+
+## ⏰ 待分组
+
+- [ ] [0008. git stash](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md) <!-- [locale](./0008.%20git%20stash/README.md) -->  
+  - [1. 📒 `git stash` 命令的作用](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#1--git-stash-命令的作用)
+  - [2. 📒 `git stash` 命令列表](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#2--git-stash-命令列表)
+  - [3. 📒 `git stash` 命令的基本使用](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#3--git-stash-命令的基本使用)
+    - [3.1. 暂存当前工作目录](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#31-暂存当前工作目录)
+    - [3.2. 查看暂存列表](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#32-查看暂存列表)
+    - [3.3. 恢复暂存的修改](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#33-恢复暂存的修改)
+      - [3.3.1. 恢复但不删除](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#331-恢复但不删除)
+      - [3.3.2. 恢复并删除 stash](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#332-恢复并删除-stash)
+    - [3.4. 删除 stash](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#34-删除-stash)
+      - [3.4.1. 删除指定 stash](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#341-删除指定-stash)
+      - [3.4.2. 删除所有 stash](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#342-删除所有-stash)
+    - [3.5. 仅 stash 某些文件](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#35-仅-stash-某些文件)
+  - [4. 📒 `git stash` 的适用场景](https://github.com/Tdahuyou/git/tree/main/0008.%20git%20stash/README.md#4--git-stash-的适用场景)
+  - `git stash` 是一个非常实用的命令，适用于需要临时存储更改的场景！
+  
