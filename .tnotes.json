@@ -1,7 +1,9 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.git-notes",
-  "keywords": ["TNotes.git-notes"],
+  "keywords": [
+    "TNotes.git-notes"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
