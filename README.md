@@ -10,6 +10,8 @@
   - [5. git 配置](#5-git-配置)
   - [6. 错误处理](#6-错误处理)
   - [7. 学习 git 命令](#7-学习-git-命令)
+  - [8. 🎯 en-words](#8--en-words)
+  - [9. empty](#9-empty)
 
 <!-- endregion:toc -->
 
@@ -43,7 +45,8 @@
   - [2. 📒 个人最喜欢的几个核心亮点](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#2--个人最喜欢的几个核心亮点)
   - [3. 💻 demos.1 - share](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#3--demos1---share)
   - [4. 💻 demos.2 - mermaid](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#4--demos2---mermaid)
-  - [5. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#5--references)
+  - [5. 🤔 为什么叫 excalidraw 这个名字呢？](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#5--为什么叫-excalidraw-这个名字呢)
+  - [6. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#6--references)
 - [x] [0016. musicxx](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#1--概述)
   - [2. 📺 又是 GitHub 精选 App!我愿称之为 2025 最好用听歌神器!](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#2--又是-github-精选-app我愿称之为-2025-最好用听歌神器)
@@ -120,3 +123,14 @@
   - [4. 📒 `git status` 的适用场景](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0009.%20git%20status/README.md#4--git-status-的适用场景)
   - [5. 📒 `git status` 命令列表](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0009.%20git%20status/README.md#5--git-status-命令列表)
   - `git status` 用于检查当前仓库的状态，确保提交前的变更正确！
+
+## 8. 🎯 en-words
+
+- [ ] [0017. en-words](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20en-words/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20en-words/README.md#1--概述)
+  - [2. 🎯 git-notes 单词本](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20en-words/README.md#2--git-notes-单词本)
+
+## 9. empty
+
+- [ ] [0018. xxx](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20xxx/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20xxx/README.md#1--概述)

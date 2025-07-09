@@ -6,7 +6,8 @@
 - [2. 📒 个人最喜欢的几个核心亮点](#2--个人最喜欢的几个核心亮点)
 - [3. 💻 demos.1 - share](#3--demos1---share)
 - [4. 💻 demos.2 - mermaid](#4--demos2---mermaid)
-- [5. 🔗 References](#5--references)
+- [5. 🤔 为什么叫 excalidraw 这个名字呢？](#5--为什么叫-excalidraw-这个名字呢)
+- [6. 🔗 References](#6--references)
 
 <!-- endregion:toc -->
 
@@ -52,7 +53,21 @@
 
 :::
 
-## 5. 🔗 References
+## 5. 🤔 为什么叫 excalidraw 这个名字呢？
+
+- **Excalidraw** 这个名字的由来很有趣，它结合了 **"Excalibur"（亚瑟王的神剑）** 和 **"Draw"（绘画）** 两个词，寓意是希望这个工具能像传说中的神剑一样强大、优雅，成为用户绘制草图时的“利器”。
+- **Excalibur（誓约胜利之剑）**：
+  - 在亚瑟王传说中，Excalibur 是一把象征力量与权威的神剑，只有真正的王者才能拔出它。
+  - 开发者借用这个名字，可能是想表达 Excalidraw 是一个“强大而优雅”的工具，能帮助用户轻松“斩断”复杂的设计问题。
+- **Draw（绘画）**：
+  - 直接表明这是一个绘图工具，功能简单明了。
+- 其他可能的联想：
+  - **"Excali-"** 发音类似 **"excellent"（优秀的）**，暗示这是一个出色的绘图工具。
+  - 名字独特且易记，符合开源项目的命名风格（比如 **Inkscape、GIMP** 等）。
+- 官方态度：
+  - 虽然官方没有正式解释名字的起源，但社区普遍认可这个命名逻辑。开发者之一曾在访谈中提到，名字的灵感确实来自 **Excalibur**，希望工具能像神剑一样帮助用户“披荆斩棘”地创作。
+
+## 6. 🔗 References
 
 - github
   - https://github.com/excalidraw/excalidraw
