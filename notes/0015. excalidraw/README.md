@@ -3,22 +3,25 @@
 <!-- region:toc -->
 
 - [1. 📝 概述](#1--概述)
-- [2. 📒 个人最喜欢的几个核心亮点](#2--个人最喜欢的几个核心亮点)
-- [3. 💻 demos.1 - share](#3--demos1---share)
-- [4. 💻 demos.2 - mermaid](#4--demos2---mermaid)
-- [5. 🤔 为什么叫 excalidraw 这个名字呢？](#5--为什么叫-excalidraw-这个名字呢)
-- [6. 🔗 References](#6--references)
+- [2. 🫧 评价](#2--评价)
+- [3. 📒 个人最喜欢的几个核心亮点](#3--个人最喜欢的几个核心亮点)
+- [4. 💻 demos.1 - share](#4--demos1---share)
+- [5. 💻 demos.2 - mermaid](#5--demos2---mermaid)
+- [6. 🤔 为什么叫 excalidraw 这个名字呢？](#6--为什么叫-excalidraw-这个名字呢)
+- [7. 🔗 References](#7--references)
 
 <!-- endregion:toc -->
 
 ## 1. 📝 概述
 
 - 记录一款开源的绘图工具 excalidraw。
-- 评价：
-  - 🤩 🤩 🤩 这个项目太棒啦～～～
-  - 在接触到这个项目之前，一直在找笔记分享中，关于绘图需求的解决方案。在此之前用的是 yuque 画板来实现绘图的需求，现在（25.06）开始全盘转向 excalidraw 来实现。
 
-## 2. 📒 个人最喜欢的几个核心亮点
+## 2. 🫧 评价
+
+- 🤩 🤩 🤩 这个项目太棒啦～～～
+- 在接触到这个项目之前，一直在找笔记分享中，关于绘图需求的解决方案。在此之前用的是 yuque 画板来实现绘图的需求，现在（25.06）开始全盘转向 excalidraw 来实现。
+
+## 3. 📒 个人最喜欢的几个核心亮点
 
 - 免费
 - 页面和交互体验都极其优雅。
@@ -32,12 +35,12 @@
 - 核心原理是基于前端技术栈实现的
   - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-10-49.png)
 
-## 3. 💻 demos.1 - share
+## 4. 💻 demos.1 - share
 
 - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-06-56.png)
 - 比如上图中的 mark 是在 iPad 上通过 Apple pencil 写的字，红色的是在 PC 端任意位置双击鼠标键入的文本内容，矩形和箭头元素，是画板自带的一些组件。
 
-## 4. 💻 demos.2 - mermaid
+## 5. 💻 demos.2 - mermaid
 
 - 支持解析 mermaid
 - 支持修改字体
@@ -53,7 +56,7 @@
 
 :::
 
-## 5. 🤔 为什么叫 excalidraw 这个名字呢？
+## 6. 🤔 为什么叫 excalidraw 这个名字呢？
 
 - **Excalidraw** 这个名字的由来很有趣，它结合了 **"Excalibur"（亚瑟王的神剑）** 和 **"Draw"（绘画）** 两个词，寓意是希望这个工具能像传说中的神剑一样强大、优雅，成为用户绘制草图时的“利器”。
 - **Excalibur（誓约胜利之剑）**：
@@ -67,7 +70,7 @@
 - 官方态度：
   - 虽然官方没有正式解释名字的起源，但社区普遍认可这个命名逻辑。开发者之一曾在访谈中提到，名字的灵感确实来自 **Excalibur**，希望工具能像神剑一样帮助用户“披荆斩棘”地创作。
 
-## 6. 🔗 References
+## 7. 🔗 References
 
 - github
   - https://github.com/excalidraw/excalidraw

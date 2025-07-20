@@ -9,9 +9,8 @@
   - [4. 远程仓库](#4-远程仓库)
   - [5. git 配置](#5-git-配置)
   - [6. 错误处理](#6-错误处理)
-  - [7. 学习 git 命令](#7-学习-git-命令)
+  - [7. git 命令](#7-git-命令)
   - [8. 🎯 en-words](#8--en-words)
-  - [9. empty](#9-empty)
 
 <!-- endregion:toc -->
 
@@ -42,15 +41,28 @@
   - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0014.%20quill/README.md#3--references)
 - [x] [0015. excalidraw](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#1--概述)
-  - [2. 📒 个人最喜欢的几个核心亮点](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#2--个人最喜欢的几个核心亮点)
-  - [3. 💻 demos.1 - share](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#3--demos1---share)
-  - [4. 💻 demos.2 - mermaid](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#4--demos2---mermaid)
-  - [5. 🤔 为什么叫 excalidraw 这个名字呢？](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#5--为什么叫-excalidraw-这个名字呢)
-  - [6. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#6--references)
+  - [2. 🫧 评价](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#2--评价)
+  - [3. 📒 个人最喜欢的几个核心亮点](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#3--个人最喜欢的几个核心亮点)
+  - [4. 💻 demos.1 - share](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#4--demos1---share)
+  - [5. 💻 demos.2 - mermaid](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#5--demos2---mermaid)
+  - [6. 🤔 为什么叫 excalidraw 这个名字呢？](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#6--为什么叫-excalidraw-这个名字呢)
+  - [7. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#7--references)
 - [x] [0016. musicxx](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#1--概述)
   - [2. 📺 又是 GitHub 精选 App!我愿称之为 2025 最好用听歌神器!](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#2--又是-github-精选-app我愿称之为-2025-最好用听歌神器)
-  - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#3--references)
+  - [3. 🫧 评价](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#3--评价)
+  - [4. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#4--references)
+- [x] [0018. 浙江大学课程攻略共享计划](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5%E5%85%B1%E4%BA%AB%E8%AE%A1%E5%88%92/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5%E5%85%B1%E4%BA%AB%E8%AE%A1%E5%88%92/README.md#1--概述)
+  - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5%E5%85%B1%E4%BA%AB%E8%AE%A1%E5%88%92/README.md#2--references)
+- [x] [0019. 清华大学计算机系课程攻略](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0019.%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0019.%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5/README.md#1--概述)
+  - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0019.%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5/README.md#2--references)
+- [x] [0020. gitdiagram](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0020.%20gitdiagram/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0020.%20gitdiagram/README.md#1--概述)
+  - [2. 📒 gitdiagram](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0020.%20gitdiagram/README.md#2--gitdiagram)
+  - [3. 📺 Github 17.4K Star！一键架构图神器！太牛了！](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0020.%20gitdiagram/README.md#3--github-174k-star一键架构图神器太牛了)
+  - [4. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0020.%20gitdiagram/README.md#4--references)
 
 ## 3. 分支
 
@@ -96,7 +108,7 @@
     - [2.5. 更新 Git](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#25-更新-git)
   - 解决办法：`git config --global http.sslVerify false`
 
-## 7. 学习 git 命令
+## 7. git 命令
 
 - [ ] [0008. git stash](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0008.%20git%20stash/README.md)
   - [1. 📒 `git stash` 命令的作用](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0008.%20git%20stash/README.md#1--git-stash-命令的作用)
@@ -129,8 +141,3 @@
 - [ ] [0017. en-words](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20en-words/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20en-words/README.md#1--概述)
   - [2. 🎯 git-notes 单词本](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20en-words/README.md#2--git-notes-单词本)
-
-## 9. empty
-
-- [ ] [0018. xxx](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20xxx/README.md)
-  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20xxx/README.md#1--概述)
