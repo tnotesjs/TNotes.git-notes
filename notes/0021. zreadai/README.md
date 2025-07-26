@@ -26,6 +26,8 @@
     - 这意味着如果你正在阅读一篇由 zread.ai 生成的 github 项目说明文档时，你也可以逆向操作 `zread.ai` -> `github.com`，快速定位到源仓库。
   - 方式二：进入 zread.ai 官网 - https://zread.ai/ 将 github 仓库地址复制到输入框中，点击搜索。
     - ![图 3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-25-23-21-19.png)
+    - 如果你正在搜索的库还没有被索引，需要自行手动发起索引请求，就现在（25.07）体验来看，排队的时间还是比较长的。
+    - ![图 4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-26-13-17-42.png)
 - 核心功能：
 
 | **功能** | **说明** |
