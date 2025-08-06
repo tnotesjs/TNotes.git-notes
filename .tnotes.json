@@ -1,7 +1,9 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.git-notes",
-  "keywords": ["TNotes.git-notes"],
+  "keywords": [
+    "TNotes.git-notes"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -21,7 +23,7 @@
     "details": "Git 笔记",
     "link": "https://tdahuyou.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
-    "updated_at": 1753580642000,
+    "updated_at": 1754494581617,
     "days_since_birth": 9220
   },
   "port": 9220,
