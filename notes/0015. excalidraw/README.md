@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🎯 本节内容](#1--本节内容)
 - [2. 🫧 评价](#2--评价)
 - [3. 📒 个人最喜欢的几个核心亮点](#3--个人最喜欢的几个核心亮点)
 - [4. 💻 demos.1 - share](#4--demos1---share)
@@ -12,9 +12,9 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🎯 本节内容
 
-- 记录一款开源的绘图工具 excalidraw。
+- 记录了一款开源的绘图工具 excalidraw
 
 ## 2. 🫧 评价
 
@@ -37,7 +37,12 @@
 
 ## 4. 💻 demos.1 - share
 
-- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-06-56.png)
+::: swiper
+
+![电脑和 iPad 共享画布](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-06-56.png)
+
+:::
+
 - 比如上图中的 mark 是在 iPad 上通过 Apple pencil 写的字，红色的是在 PC 端任意位置双击鼠标键入的文本内容，矩形和箭头元素，是画板自带的一些组件。
 
 ## 5. 💻 demos.2 - mermaid
@@ -45,14 +50,15 @@
 - 支持解析 mermaid
 - 支持修改字体
 - 支持对解析后的内容进行二次编辑
+  - 注意，并非所有 mermaid 图表都能导入后再二次编辑，有些图表导入后就是一张完整的图片，无法在对其中的内容进行二次编辑。
 
 ::: swiper
 
-![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-19-17.png)
+![输入 mermaid](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-19-17.png)
 
-![图 3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-21-41.png)
+![导入](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-21-41.png)
 
-![图 4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-23-41.png)
+![二次编辑](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-23-41.png)
 
 :::
 
@@ -72,13 +78,14 @@
 
 ## 7. 🔗 引用
 
-- github
-  - https://github.com/excalidraw/excalidraw
-- deepwiki
-  - https://deepwiki.com/excalidraw/excalidraw
-- mermaid 官网
-  - https://mermaid.js.org/
-- 在线网页版
-  - https://excalidraw.com/
-- vscode 插件
-  - https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor
+- [excalidraw github][1]
+- [excalidraw deepwiki][2]
+- [mermaid 官网][3]
+- [mermaid 在线网页版][4]
+- [vscode 中的 mermaid 插件][5]
+
+[1]: https://github.com/excalidraw/excalidraw
+[2]: https://deepwiki.com/excalidraw/excalidraw
+[3]: https://mermaid.js.org/
+[4]: https://excalidraw.com/
+[5]: https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor
