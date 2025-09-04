@@ -1,11 +1,24 @@
 <template>
   <Layout>
+    <template v-if="showNotFound" #not-found>
+      <div class="not-found-container">
+        <h1>404</h1>
+        <p>Page not found</p>
+        <!-- <div class="debug-info">
+          <p>Current path: {{ decodedCurrentPath }}</p>
+          <p>Matched ID: {{ matchedId }}</p>
+          <p>Redirect path: {{ redirectPath }}</p>
+        </div> -->
+      </div>
+    </template>
     <template #doc-top>
       <!-- <pre>vscodesNoteDir: {{ vscodeNotesDir }}</pre> -->
       <!-- <pre>vpData.page.value: {{ vpData.page.value }}</pre>
             <pre>currentNoteConfig: {{ currentNoteConfig }}</pre> -->
       <!-- <button @click="copyRawFile" title="Copy raw file">raw</button> -->
       <!-- <pre>{{ tocData }}</pre> -->
+      <ImagePreview />
+      <Swiper />
     </template>
     <!-- <template #doc-bottom>doc-bottom</template> -->
     <template #doc-before>
@@ -97,19 +110,24 @@
 </template>
 
 <script setup>
+import ImagePreview from './ImagePreview.vue'
+import Swiper from './Swiper.vue'
+
 import icon__vscode from '/icon__vscode.svg'
 import icon__totop from '/icon__totop.svg'
-import m2mm from '/m2mm.png'
 import icon__github from '/icon__github.svg'
+import m2mm from '/m2mm.png'
 
 import DefaultTheme from 'vitepress/theme'
-import { useData } from 'vitepress'
-import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
+import { useData, useRouter, useRoute } from 'vitepress'
+import { ref, computed, onMounted, watch } from 'vue'
 
 import Discussions from '../Discussions/Discussions.vue'
 
 import { data as tocData } from './toc.data.js'
 import { data as allNotesConfig } from '../notesConfig.data.js'
+
+// console.log('allNotesConfig', allNotesConfig)
 
 import { formatDate, scrollToTop } from '../utils.js'
 
@@ -117,6 +135,9 @@ import { NOTES_DIR_KEY, TOC_MD, REPO_NAME } from '../constants.js'
 
 const { Layout } = DefaultTheme
 const vpData = useData()
+const router = useRouter()
+const route = useRoute()
+
 // console.log('notesData:', notesData)
 // console.log('vpData:', vpData)
 // 提取当前笔记的 ID（前 4 个数字）
@@ -152,13 +173,11 @@ const updateVscodeNoteDir = () => {
 
 onMounted(() => {
   updateVscodeNoteDir()
-  initSwiper()
 })
 watch(
   () => vpData.page.value.relativePath,
   () => {
     updateVscodeNoteDir()
-    initSwiper()
   }
 )
 
@@ -184,58 +203,93 @@ const copyRawFile = () => {
   }, 1000)
 }
 
-// --------------------------------------------------------------
-// #region - swiper
-// --------------------------------------------------------------
-// doc: https://swiperjs.com/demos
+// #region - 404 redirect
+// 控制是否显示 404 内容
+const showNotFound = ref(false)
+const currentPath = ref('')
+const matchedId = ref('')
+const redirectPath = ref('')
 
-// import Swiper from 'swiper'
-// import { Navigation, Pagination } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
+// 重定向检查函数
+function checkRedirect() {
+  if (typeof window === 'undefined') return false
 
-const swiperInstance = ref(null)
+  currentPath.value = window.location.pathname
+  // 匹配路径格式：/TNotes.*/notes/四个数字{任意内容}/README
+  const match = currentPath.value.match(
+    /\/TNotes[^/]+\/notes\/(\d{4})[^/]*(?:\/.*)?$/
+  )
 
-const initSwiper = () => {
-  import('swiper').then(({ default: Swiper }) => {
-    import('swiper/modules').then(({ Navigation, Pagination }) => {
-      swiperInstance.value = new Swiper('.swiper-container', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        modules: [Navigation, Pagination],
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      })
-    })
-  })
-}
+  if (match) {
+    matchedId.value = match[1]
+    const targetNote = allNotesConfig[matchedId.value]
+    redirectPath.value = targetNote ? targetNote.redirect : ''
 
-function destroySwiper() {
-  // ! unknow error
-  if (swiperInstance.value && swiperInstance.value.destroy) {
-    try {
-      swiperInstance.value.destroy(true, true)
-    } catch (error) {
-      console.log(error)
+    if (targetNote && targetNote.redirect) {
+      const base = vpData.site.value.base
+      // 构建目标路径（包含基础路径）
+      const targetPath = `${base}${targetNote.redirect}`
+
+      // 避免重定向死循环
+      if (currentPath.value !== targetPath) {
+        console.log(`Redirecting from ${currentPath.value} to ${targetPath}`)
+
+        // !会页面尚未构建完成，不用 vue router，虽然它可以实现无刷新（页面积闪烁）的跳转页面。
+        // 使用完整的页面跳转（强制刷新）
+        window.location.href = targetPath
+        return true
+      }
     }
   }
-
-  // document.querySelectorAll('.swiper-container').forEach(el => el.remove())
-  // swiperInstance.value = null
+  return false
 }
 
-onBeforeUnmount(destroySwiper)
-// --------------------------------------------------------------
-// #endregion - swiper
-// --------------------------------------------------------------
+const decodedCurrentPath = computed(() => {
+  try {
+    return decodeURIComponent(currentPath.value)
+  } catch (e) {
+    console.error('Failed to decode URI:', e)
+    return currentPath.value
+  }
+})
+
+// 在组件挂载时检查重定向
+onMounted(() => {
+  // 延迟执行以确保路由状态稳定
+  setTimeout(() => {
+    // 如果是 404 页面，尝试重定向
+    if (vpData.page.value.isNotFound) {
+      const redirected = checkRedirect()
+
+      // 如果重定向失败，显示原始 404 内容
+      if (!redirected) {
+        showNotFound.value = true
+      }
+    }
+    // 正常页面也检查是否需要重定向
+    // else {
+    //   checkRedirect()
+    // }
+  }, 1000)
+})
+
+// 监听路由变化
+watch(
+  () => route.path,
+  () => {
+    // 延迟检查以确保路由更新完成
+    setTimeout(() => {
+      // 如果当前页面是404，则尝试重定向
+      if (vpData.page.value.isNotFound) {
+        const redirected = checkRedirect()
+        if (!redirected) {
+          showNotFound.value = true
+        }
+      }
+    }, 1000)
+  }
+)
+// #endregion
 </script>
 
 <style scoped>
@@ -296,57 +350,33 @@ onBeforeUnmount(destroySwiper)
 </style>
 
 <style>
-/* add some custom styles to set Swiper size */
-.swiper-container {
-  width: 100%;
-  aspect-ratio: 16/9;
-  position: relative;
-  overflow: hidden;
-  margin: 1rem 0;
+/* 添加 404 页面样式 */
+.not-found-container {
+  text-align: center;
+  padding: 2rem;
+  min-height: calc(100vh - var(--vp-nav-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.swiper-container img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.not-found-container h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
-/* .swiper-container .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 12px;
-    color: #1a1a1a;
-    opacity: .2;
-    background: rgba(0, 0, 0, 0.2);
-} */
-
-.swiper-container .swiper-pagination-bullet:hover {
-  opacity: 0.8;
-}
-
-.swiper-container .swiper-pagination-bullet-active {
-  color: #fff;
-  background: var(--vp-c-brand-1);
-  opacity: 0.8;
-}
-
-.swiper-container .swiper-button-prev:after,
-.swiper-container .swiper-button-next:after {
+.not-found-container p {
   font-size: 1.5rem;
+  color: var(--vp-c-text-2);
 }
 
-.swiper-container .swiper-button-prev,
-.swiper-container .swiper-button-next {
-  transition: all 0.3s;
-  opacity: 0.5;
+/*
+.debug-info {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
 }
-
-.swiper-container .swiper-button-prev:hover,
-.swiper-container .swiper-button-next:hover {
-  transform: scale(1.5);
-  opacity: 1;
-}
+  */
 </style>

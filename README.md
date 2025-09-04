@@ -3,28 +3,34 @@
 <!-- region:toc -->
 
 - [git](#git)
-  - [1. Github 工具](#1-github-工具)
-    - [1.1. 源码学习工具](#11-源码学习工具)
-    - [1.2. 画板工具](#12-画板工具)
-    - [1.3. 富文本工具](#13-富文本工具)
-    - [1.4. 协同工具](#14-协同工具)
-    - [1.5. 学习资源](#15-学习资源)
-    - [1.6. 笔记工具](#16-笔记工具)
-    - [1.7. 打包工具](#17-打包工具)
-    - [1.8. 听歌工具](#18-听歌工具)
-  - [2. Github 基本使用](#2-github-基本使用)
-  - [3. Git 笔记（pending）](#3-git-笔记pending)
-    - [3.1. 分支](#31-分支)
-    - [3.2. 远程仓库](#32-远程仓库)
-    - [3.3. git 配置](#33-git-配置)
-    - [3.4. 错误处理](#34-错误处理)
-    - [3.5. git 命令](#35-git-命令)
+  - [1. git-notes 简介](#1-git-notes-简介)
+  - [2. Github 工具](#2-github-工具)
+    - [2.1. 源码学习工具](#21-源码学习工具)
+    - [2.2. 画板工具](#22-画板工具)
+    - [2.3. 富文本工具](#23-富文本工具)
+    - [2.4. 协同工具](#24-协同工具)
+    - [2.5. 学习资源](#25-学习资源)
+    - [2.6. 笔记工具](#26-笔记工具)
+    - [2.7. 打包工具](#27-打包工具)
+    - [2.8. 听歌工具](#28-听歌工具)
+  - [3. Github 基本使用](#3-github-基本使用)
+  - [4. Git 笔记（pending）](#4-git-笔记pending)
+    - [4.1. 分支](#41-分支)
+    - [4.2. 远程仓库](#42-远程仓库)
+    - [4.3. git 配置](#43-git-配置)
+    - [4.4. 错误处理](#44-错误处理)
+    - [4.5. git 命令](#45-git-命令)
 
 <!-- endregion:toc -->
 
-## 1. Github 工具
+## 1. git-notes 简介
 
-### 1.1. 源码学习工具
+- [ ] [0022. git-notes 简介](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0022.%20git-notes%20%E7%AE%80%E4%BB%8B/README.md)
+  - [1. 🤔 这个 git-notes 知识库主要记录哪些内容？](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0022.%20git-notes%20%E7%AE%80%E4%BB%8B/README.md#1--这个-git-notes-知识库主要记录哪些内容)
+
+## 2. Github 工具
+
+### 2.1. 源码学习工具
 
 - [x] [0010. deepwiki](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0010.%20deepwiki/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0010.%20deepwiki/README.md#1--概述)
@@ -38,7 +44,7 @@
   - [3. 📒 zread Chrome 插件](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0021.%20zreadai/README.md#3--zread-chrome-插件)
   - [4. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0021.%20zreadai/README.md#4--references)
 
-### 1.2. 画板工具
+### 2.2. 画板工具
 
 - [x] [0015. excalidraw](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#1--概述)
@@ -49,21 +55,21 @@
   - [6. 🤔 为什么叫 excalidraw 这个名字呢？](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#6--为什么叫-excalidraw-这个名字呢)
   - [7. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw/README.md#7--references)
 
-### 1.3. 富文本工具
+### 2.3. 富文本工具
 
 - [x] [0014. quill](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0014.%20quill/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0014.%20quill/README.md#1--概述)
   - [2. 💻 demos.1 - 快速上手 quill](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0014.%20quill/README.md#2--demos1---快速上手-quill)
   - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0014.%20quill/README.md#3--references)
 
-### 1.4. 协同工具
+### 2.4. 协同工具
 
 - [x] [0013. yjs](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0013.%20yjs/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0013.%20yjs/README.md#1--概述)
   - [2. 🤔 为什么叫 YJS，Y 是什么意思？](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0013.%20yjs/README.md#2--为什么叫-yjsy-是什么意思)
   - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0013.%20yjs/README.md#3--references)
 
-### 1.5. 学习资源
+### 2.5. 学习资源
 
 - [x] [0018. 浙江大学课程攻略共享计划](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5%E5%85%B1%E4%BA%AB%E8%AE%A1%E5%88%92/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5%E5%85%B1%E4%BA%AB%E8%AE%A1%E5%88%92/README.md#1--概述)
@@ -71,21 +77,21 @@
 - [x] [0019. 清华大学计算机系课程攻略](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0019.%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5/README.md)
 
 
-### 1.6. 笔记工具
+### 2.6. 笔记工具
 
 - [x] [0011. memorains](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0011.%20memorains/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0011.%20memorains/README.md#1--概述)
   - [2. 📺 我开源了自己开发的在线笔记软件](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0011.%20memorains/README.md#2--我开源了自己开发的在线笔记软件)
   - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0011.%20memorains/README.md#3--references)
 
-### 1.7. 打包工具
+### 2.7. 打包工具
 
 - [x] [0012. PakePlus](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0012.%20PakePlus/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0012.%20PakePlus/README.md#1--概述)
   - [2. 📺 PakePlus 打包静态文件为跨平台桌面应用，仅仅不到 5M](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0012.%20PakePlus/README.md#2--pakeplus-打包静态文件为跨平台桌面应用仅仅不到-5m)
   - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0012.%20PakePlus/README.md#3--references)
 
-### 1.8. 听歌工具
+### 2.8. 听歌工具
 
 - [x] [0016. musicxx](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#1--概述)
@@ -93,30 +99,30 @@
   - [3. 🫧 评价](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#3--评价)
   - [4. 🔗 References](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx/README.md#4--references)
 
-## 2. Github 基本使用
+## 3. Github 基本使用
 
 - [x] [0017. 如何取消 github 上某个 OAuth 应用的访问权限](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20%E5%A6%82%E4%BD%95%E5%8F%96%E6%B6%88%20github%20%E4%B8%8A%E6%9F%90%E4%B8%AA%20OAuth%20%E5%BA%94%E7%94%A8%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20%E5%A6%82%E4%BD%95%E5%8F%96%E6%B6%88%20github%20%E4%B8%8A%E6%9F%90%E4%B8%AA%20OAuth%20%E5%BA%94%E7%94%A8%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90/README.md#1--概述)
   - [2. 💻 在 Settings 中的 Applications 面板中撤销应用的授权（推荐）](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20%E5%A6%82%E4%BD%95%E5%8F%96%E6%B6%88%20github%20%E4%B8%8A%E6%9F%90%E4%B8%AA%20OAuth%20%E5%BA%94%E7%94%A8%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90/README.md#2--在-settings-中的-applications-面板中撤销应用的授权推荐)
   - [3. 💻 使用 API 撤销令牌](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20%E5%A6%82%E4%BD%95%E5%8F%96%E6%B6%88%20github%20%E4%B8%8A%E6%9F%90%E4%B8%AA%20OAuth%20%E5%BA%94%E7%94%A8%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90/README.md#3--使用-api-撤销令牌)
 
-## 3. Git 笔记（pending）
+## 4. Git 笔记（pending）
 
-### 3.1. 分支
+### 4.1. 分支
 
 - [x] [0006. 分支重命名](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#1--概述)
   - [2. 💻 重命名本地分支](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#2--重命名本地分支)
   - [3. 💻 重命名远程分支](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md#3--重命名远程分支)
 
-### 3.2. 远程仓库
+### 4.2. 远程仓库
 
 - [ ] [0001. 修改指定远程仓库的 url](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md)
   - [1. 💻 使用 `git remote set-url` 命令](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#1--使用-git-remote-set-url-命令)
   - [2. 💻 直接编辑 `.git/config` 文件](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md#2--直接编辑-gitconfig-文件)
   - `git remote set-url origin 新的URL`
 
-### 3.3. git 配置
+### 4.3. git 配置
 
 - [ ] [0005. git proxy 配置](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md)
   - [1. 📒 常见的超时报错 443 日志](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md#1--常见的超时报错-443-日志)
@@ -127,7 +133,7 @@
 - [ ] [0007. 一个项目多个 .gitignore 文件](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md)
 
 
-### 3.4. 错误处理
+### 4.4. 错误处理
 
 - [ ] [0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md)
   - [1. 💻 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误的解决流程](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF/README.md#1--尝试将代码推送到-github-时遇到-permission-denied-publickey-错误的解决流程)
@@ -145,7 +151,7 @@
     - [2.5. 更新 Git](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md#25-更新-git)
   - 解决办法：`git config --global http.sslVerify false`
 
-### 3.5. git 命令
+### 4.5. git 命令
 
 - [ ] [0008. git stash](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0008.%20git%20stash/README.md)
   - [1. 📒 `git stash` 命令的作用](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0008.%20git%20stash/README.md#1--git-stash-命令的作用)
