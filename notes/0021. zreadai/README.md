@@ -5,7 +5,7 @@
 - [1. 📝 概述](#1--概述)
 - [2. 📒 Zread.ai](#2--zreadai)
 - [3. 📒 zread Chrome 插件](#3--zread-chrome-插件)
-- [4. 🔗 References](#4--references)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
@@ -48,7 +48,7 @@
     - 点击链接之后，跳转到的 zreadai 生成的文档地址。
     - ![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-25-23-13-29.png)
 
-## 4. 🔗 References
+## 4. 🔗 引用
 
 - https://zread.ai
   - zreadai 官网

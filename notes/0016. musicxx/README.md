@@ -5,7 +5,7 @@
 - [1. 📝 概述](#1--概述)
 - [2. 📺 又是 GitHub 精选 App!我愿称之为 2025 最好用听歌神器!](#2--又是-github-精选-app我愿称之为-2025-最好用听歌神器)
 - [3. 🫧 评价](#3--评价)
-- [4. 🔗 References](#4--references)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
@@ -26,7 +26,7 @@
 - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-01-07-52-54.png)
 - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-01-07-53-04.png)
 
-## 4. 🔗 References
+## 4. 🔗 引用
 
 - github
   - https://github.com/coolight7/musicxx

@@ -10,11 +10,12 @@
 
 ```markmap
 
-- git
-  - 版本管理工具 git 的学习笔记
-- github
-  - 有关 github 平台的一些使用说明
-  - github 上的一些开源项目
-  - 和 github 相关的一些工具
+- git-notes
+  - git
+    - 版本管理工具 git 的学习笔记
+  - github
+    - 有关 github 平台的一些使用说明
+    - github 上的一些开源项目
+    - 和 github 相关的一些工具
 
 ```

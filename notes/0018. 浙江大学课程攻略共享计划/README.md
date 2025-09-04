@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 概述](#1--概述)
-- [2. 🔗 References](#2--references)
+- [2. 🔗 引用](#2--引用)
 
 <!-- endregion:toc -->
 
@@ -12,7 +12,7 @@
 - 浙大的一些课程学习资料。
 - 包含很多学科，有很多学习资料（pdf、txt、word、……）可一键下载，有需要可自行查阅官方文档。
 
-## 2. 🔗 References
+## 2. 🔗 引用
 
 - https://github.com/QSCTech/zju-icicles
   - github

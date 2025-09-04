@@ -4,7 +4,7 @@
 
 - [1. 📝 概述](#1--概述)
 - [2. 💻 demos.1 - 快速上手 quill](#2--demos1---快速上手-quill)
-- [3. 🔗 References](#3--references)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
@@ -24,7 +24,7 @@
 - 最终效果：
   - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-10-46-44.png)
 
-## 3. 🔗 References
+## 3. 🔗 引用
 
 - github
   - https://github.com/slab/quill

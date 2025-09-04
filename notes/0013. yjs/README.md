@@ -4,7 +4,7 @@
 
 - [1. 📝 概述](#1--概述)
 - [2. 🤔 为什么叫 YJS，Y 是什么意思？](#2--为什么叫-yjsy-是什么意思)
-- [3. 🔗 References](#3--references)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
@@ -36,7 +36,7 @@
 >   - Merging: The core function of Yjs is to merge changes from different sources, so the "Y" could represent the merging operation.
 >   - 合并：Yjs 的核心功能是合并来自不同来源的更改，因此 "Y "可以代表合并操作。
 
-## 3. 🔗 References
+## 3. 🔗 引用
 
 - github
   - https://github.com/yjs/yjs

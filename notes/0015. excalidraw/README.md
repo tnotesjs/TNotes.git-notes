@@ -8,7 +8,7 @@
 - [4. 💻 demos.1 - share](#4--demos1---share)
 - [5. 💻 demos.2 - mermaid](#5--demos2---mermaid)
 - [6. 🤔 为什么叫 excalidraw 这个名字呢？](#6--为什么叫-excalidraw-这个名字呢)
-- [7. 🔗 References](#7--references)
+- [7. 🔗 引用](#7--引用)
 
 <!-- endregion:toc -->
 
@@ -70,7 +70,7 @@
 - 官方态度：
   - 虽然官方没有正式解释名字的起源，但社区普遍认可这个命名逻辑。开发者之一曾在访谈中提到，名字的灵感确实来自 **Excalibur**，希望工具能像神剑一样帮助用户“披荆斩棘”地创作。
 
-## 7. 🔗 References
+## 7. 🔗 引用
 
 - github
   - https://github.com/excalidraw/excalidraw

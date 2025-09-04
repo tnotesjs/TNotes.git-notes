@@ -19,11 +19,11 @@
       "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--git.svg"
     },
     "title": "git-notes",
-    "completed_notes_count": 13,
+    "completed_notes_count": 14,
     "details": "Git 笔记",
     "link": "https://tdahuyou.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
-    "updated_at": 1756993466089,
+    "updated_at": 1756994384215,
     "days_since_birth": 9220
   },
   "port": 9220,
@@ -53,7 +53,7 @@
       "link": "https://www.yuque.com/tdahuyou/tnotes.yuque"
     },
     {
-      "text": "🔗 References",
+      "text": "🔗 引用",
       "link": "/References"
     }
   ],

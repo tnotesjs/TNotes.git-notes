@@ -4,7 +4,7 @@
 
 - [1. 📝 概述](#1--概述)
 - [2. 📺 PakePlus 打包静态文件为跨平台桌面应用，仅仅不到 5M](#2--pakeplus-打包静态文件为跨平台桌面应用仅仅不到-5m)
-- [3. 🔗 References](#3--references)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
@@ -26,7 +26,7 @@ PakePlus是一款开源工具，仅需几分钟，就能够将任意网页或前
 开源地址： https://github.com/Sjj1024/PakePlus
 ```
 
-## 3. 🔗 References
+## 3. 🔗 引用
 
 - UP：
   - 1024 小神
