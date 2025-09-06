@@ -1,5 +1,5 @@
 {
-  "author": "Tdahuyou",
+  "author": "tnotesjs",
   "repoName": "TNotes.git-notes",
   "keywords": ["TNotes.git-notes"],
   "ignore_dirs": [
@@ -19,7 +19,7 @@
     "title": "git-notes",
     "completed_notes_count": 16,
     "details": "Git 笔记",
-    "link": "https://tdahuyou.github.io/TNotes.git-notes/",
+    "link": "https://tnotesjs.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
     "updated_at": 1757163547135,
     "days_since_birth": 9220
@@ -44,7 +44,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tdahuyou.github.io/notes"
+      "link": "https://tnotesjs.github.io/notes"
     },
     {
       "text": "📂 TNotes.yuque",
