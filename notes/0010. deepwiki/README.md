@@ -17,10 +17,10 @@
     - https://deepwiki.com/microsoft/vscode
 - deepwiki doc
   - https://docs.devin.ai/work-with-devin/deepwiki
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-26-21-35-57.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-26-21-35-57.png)
 - deepwiki 官网
   - https://deepwiki.org/
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-26-21-34-04.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-26-21-34-04.png)
 
 ## 2. 📺 Github 的超级百科，一键可视化，光速读懂开源代码
 

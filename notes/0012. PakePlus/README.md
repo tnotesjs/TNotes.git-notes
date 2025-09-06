@@ -12,7 +12,7 @@
 
 - 记录一款打包开源的打包工具，可以用于将前端项目打包为其他平台的应用。
 - 在使用过程中若遇到问题，可结合着 UP 发布的使用教程看看。
-  - ![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-09-38-36.png)
+  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-09-38-36.png)
 
 ## 2. 📺 PakePlus 打包静态文件为跨平台桌面应用，仅仅不到 5M
 
@@ -33,8 +33,8 @@ PakePlus是一款开源工具，仅需几分钟，就能够将任意网页或前
   - https://space.bilibili.com/405719127
 - 官方文档
   - https://www.pakeplus.com/
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-09-35-37.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-09-35-37.png)
 - github
   - https://github.com/Sjj1024/PakePlus
 - star history
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-09-37-09.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-09-37-09.png)

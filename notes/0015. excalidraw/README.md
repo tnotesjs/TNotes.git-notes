@@ -33,13 +33,13 @@
 - Share 功能
   - 你可以通过链接共享画板中的内容，这意味着你可以在电脑上打开网页，生成一个共享链接，然后在你的 iPad 上打开，对画板进行编辑。也可以将链接分享给其他朋友，它们可以通过链接实时看到你的画板内容，并且也可以协同编辑。
 - 核心原理是基于前端技术栈实现的
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-10-49.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-11-10-49.png)
 
 ## 4. 💻 demos.1 - share
 
 ::: swiper
 
-![电脑和 iPad 共享画布](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-06-56.png)
+![电脑和 iPad 共享画布](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-11-06-56.png)
 
 :::
 
@@ -54,11 +54,11 @@
 
 ::: swiper
 
-![输入 mermaid](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-19-17.png)
+![输入 mermaid](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-11-19-17.png)
 
-![导入](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-21-41.png)
+![导入](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-11-21-41.png)
 
-![二次编辑](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-11-23-41.png)
+![二次编辑](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-11-23-41.png)
 
 :::
 

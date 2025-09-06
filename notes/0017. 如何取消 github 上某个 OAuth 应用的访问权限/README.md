@@ -16,9 +16,9 @@
 
 - 登录 GitHub，点击右上角头像 → **Settings**（设置）。
 - 左侧菜单选择 **Applications**。
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-26-00-20-53.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-26-00-20-53.png)
 - 选择 **Authorized OAuth Apps**（已授权的 OAuth 应用）。
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-26-00-31-26.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-26-00-31-26.png)
 - 找到目标应用，点击 **Revoke**（撤销）并确认。
 - 取消后应用将立即失去访问权限，且无法再获取你的私有数据。
 

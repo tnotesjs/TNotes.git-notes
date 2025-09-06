@@ -22,7 +22,7 @@
 <<< ./demos/1/1.html {9-13,32-33}
 
 - 最终效果：
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-29-10-46-44.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-29-10-46-44.png)
 
 ## 3. 🔗 引用
 

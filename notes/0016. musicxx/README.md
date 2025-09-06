@@ -23,8 +23,8 @@
 - 亮点有很多，槽点也不少。
   - 亮点：见 B 站相关视频介绍。
   - 槽点：需要登录、歌词错误 …… 等其他槽点可以见项目 Issues -> https://github.com/coolight7/musicxx/issues
-- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-01-07-52-54.png)
-- ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-01-07-53-04.png)
+- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-01-07-52-54.png)
+- ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-01-07-53-04.png)
 
 ## 4. 🔗 引用
 

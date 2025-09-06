@@ -31,7 +31,7 @@
 - [mermaid](https://github.com/ahmedkhaleel2004/gitdiagram/blob/ca88e20e1707577830a99a3177bdee4553aaaae8/package.json#L37)
   - 最终呈现的图标，是基于开源项目 mermaid 来绘制的，这个图表可以很轻松地嵌入到 markdown 中。
   - 比如，你可以利用这个工具分析一下这个项目的架构，生成 diagram 图之后，copy mermaid 代码，丢到 markdown 笔记中。
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-20-23-09-28.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-20-23-09-28.png)
   - ⬇️ ⬇️ ⬇️ 下面展示的 mermaid 图表，就是搬运过来的结果，只不过这里搬运过来的结果的交互效果或许就没官方做的好了（比如鼠标悬停在链接块上之后，块会有放大变灰的交互效果），不过超链接依旧是正常有效的。
 
 ```mermaid
