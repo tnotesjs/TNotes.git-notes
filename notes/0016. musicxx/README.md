@@ -1,4 +1,4 @@
-# [0016. musicxx](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0016.%20musicxx)
+# [0016. musicxx](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0016.%20musicxx)
 
 <!-- region:toc -->
 

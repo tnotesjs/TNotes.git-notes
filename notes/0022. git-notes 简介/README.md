@@ -1,4 +1,4 @@
-# [0022. git-notes 简介](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0022.%20git-notes%20%E7%AE%80%E4%BB%8B)
+# [0022. git-notes 简介](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0022.%20git-notes%20%E7%AE%80%E4%BB%8B)
 
 <!-- region:toc -->
 

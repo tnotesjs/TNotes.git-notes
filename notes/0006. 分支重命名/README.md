@@ -1,4 +1,4 @@
-# [0006. 分支重命名](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D)
+# [0006. 分支重命名](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D)
 
 <!-- region:toc -->
 

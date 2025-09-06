@@ -1,4 +1,4 @@
-# [0024. github-rank](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0024.%20github-rank)
+# [0024. github-rank](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0024.%20github-rank)
 
 <!-- region:toc -->
 

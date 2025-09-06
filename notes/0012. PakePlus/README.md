@@ -1,4 +1,4 @@
-# [0012. PakePlus](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0012.%20PakePlus)
+# [0012. PakePlus](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0012.%20PakePlus)
 
 <!-- region:toc -->
 

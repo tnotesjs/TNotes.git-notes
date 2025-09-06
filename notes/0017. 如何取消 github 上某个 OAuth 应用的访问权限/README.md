@@ -1,4 +1,4 @@
-# [0017. 如何取消 github 上某个 OAuth 应用的访问权限](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0017.%20%E5%A6%82%E4%BD%95%E5%8F%96%E6%B6%88%20github%20%E4%B8%8A%E6%9F%90%E4%B8%AA%20OAuth%20%E5%BA%94%E7%94%A8%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90)
+# [0017. 如何取消 github 上某个 OAuth 应用的访问权限](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0017.%20%E5%A6%82%E4%BD%95%E5%8F%96%E6%B6%88%20github%20%E4%B8%8A%E6%9F%90%E4%B8%AA%20OAuth%20%E5%BA%94%E7%94%A8%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90)
 
 <!-- region:toc -->
 

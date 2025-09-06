@@ -1,4 +1,4 @@
-# [0014. quill](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0014.%20quill)
+# [0014. quill](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0014.%20quill)
 
 <!-- region:toc -->
 

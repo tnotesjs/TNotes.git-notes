@@ -1,4 +1,4 @@
-# [0009. git status](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0009.%20git%20status)
+# [0009. git status](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0009.%20git%20status)
 
 <!-- region:toc -->
 

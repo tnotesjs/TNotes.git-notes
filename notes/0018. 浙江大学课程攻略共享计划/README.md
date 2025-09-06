@@ -1,4 +1,4 @@
-# [0018. 浙江大学课程攻略共享计划](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0018.%20%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5%E5%85%B1%E4%BA%AB%E8%AE%A1%E5%88%92)
+# [0018. 浙江大学课程攻略共享计划](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0018.%20%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5%E5%85%B1%E4%BA%AB%E8%AE%A1%E5%88%92)
 
 <!-- region:toc -->
 

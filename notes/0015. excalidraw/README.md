@@ -1,4 +1,4 @@
-# [0015. excalidraw](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0015.%20excalidraw)
+# [0015. excalidraw](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0015.%20excalidraw)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0023. china-ranking](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0023.%20china-ranking)
+# [0023. china-ranking](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0023.%20china-ranking)
 
 <!-- region:toc -->
 

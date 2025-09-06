@@ -1,4 +1,4 @@
-# [0001. 修改指定远程仓库的 url](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url)
+# [0001. 修改指定远程仓库的 url](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url)
 
 <!-- region:toc -->
 

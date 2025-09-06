@@ -1,4 +1,4 @@
-# [0019. 清华大学计算机系课程攻略](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0019.%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5)
+# [0019. 清华大学计算机系课程攻略](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0019.%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E8%AF%BE%E7%A8%8B%E6%94%BB%E7%95%A5)
 
 <!-- region:toc -->
 

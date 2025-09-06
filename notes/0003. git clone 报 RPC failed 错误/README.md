@@ -1,4 +1,4 @@
-# [0003. git clone 报 RPC failed 错误](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF)
+# [0003. git clone 报 RPC failed 错误](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF)
 
 <!-- region:toc -->
 

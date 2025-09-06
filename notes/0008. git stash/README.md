@@ -1,4 +1,4 @@
-# [0008. git stash](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0008.%20git%20stash)
+# [0008. git stash](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0008.%20git%20stash)
 
 <!-- region:toc -->
 

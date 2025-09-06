@@ -1,4 +1,4 @@
-# [0005. git proxy 配置](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE)
+# [0005. git proxy 配置](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE)
 
 <!-- region:toc -->
 

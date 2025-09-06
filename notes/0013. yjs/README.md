@@ -1,4 +1,4 @@
-# [0013. yjs](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0013.%20yjs)
+# [0013. yjs](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0013.%20yjs)
 
 <!-- region:toc -->
 

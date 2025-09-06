@@ -1,4 +1,4 @@
-# [0021. zreadai](https://github.com/Tdahuyou/TNotes.git-notes/tree/main/notes/0021.%20zreadai)
+# [0021. zreadai](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0021.%20zreadai)
 
 <!-- region:toc -->
 
