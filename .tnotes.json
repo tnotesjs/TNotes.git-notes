@@ -23,7 +23,7 @@
     "details": "Git 笔记",
     "link": "https://tnotesjs.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
-    "updated_at": 1757172130932,
+    "updated_at": 1757554038378,
     "days_since_birth": 9220
   },
   "port": 9220,
@@ -46,7 +46,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tnotesjs.github.io/notes"
+      "link": "https://tnotesjs.github.io/TNotes"
     },
     {
       "text": "📂 TNotes.yuque",
