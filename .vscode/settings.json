@@ -137,7 +137,8 @@
     "**/tsconfig.json": "jsonc",
     "*.json": "jsonc",
     "package.json": "json",
-    "*.md": "markdown"
+    "*.md": "markdown",
+    "*.markmap": "markdown"
   },
 
   "files.exclude": {
