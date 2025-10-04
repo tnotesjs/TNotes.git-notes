@@ -45,6 +45,11 @@
   - 听歌工具
     - [musicxx][1]
       - 一款免费的听歌工具，亮点有很多，槽点也不少，先让子然弹飞一会儿……
+  - 英语学习工具
+    - ⭐️ [everyone-can-use-english][16]
+      - `everyone-can-use-english` 是一款用于学习英语的开源项目。
+      - 技术栈大多也都是目前前端领域主流的，有空可以瞅瞅。
+      - 基于 vitepress 搭建的 docs 写得很 nice，在整理 en-notes 知识库的时候可以学习学习。
 
 [1]: https://github.com/coolight7/musicxx
 [2]: https://github.com/excalidraw/excalidraw
@@ -61,3 +66,4 @@
 [13]: https://zread.ai/
 [14]: https://space.bilibili.com/39747309
 [15]: https://space.bilibili.com/405719127
+[16]: https://github.com/ZuodaoTech/everyone-can-use-english/
