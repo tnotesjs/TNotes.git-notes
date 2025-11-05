@@ -2,17 +2,7 @@
 
 <!-- region:toc -->
 
-- [git](#git)
-  - [1. git-notes 简介](#1-git-notes-简介)
-  - [2. Github 开源项目](#2-github-开源项目)
-  - [3. Github 基本使用](#3-github-基本使用)
-  - [4. ⏰ Git 笔记](#4--git-笔记)
-    - [4.1. 分支](#41-分支)
-    - [4.2. 远程仓库](#42-远程仓库)
-    - [4.3. git 配置](#43-git-配置)
-    - [4.4. 错误处理](#44-错误处理)
-    - [4.5. git 命令](#45-git-命令)
-  - [5. ⏰ pending](#5--pending)
+
 
 <!-- endregion:toc -->
 
@@ -70,4 +60,4 @@
 
 ## 5. ⏰ pending
 
-- [ ] [0026. m2mm](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0026.%20m2mm/README.md)
+- [x] [0026. m2mm](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0026.%20m2mm/README.md)
