@@ -20,10 +20,6 @@
     },
     "title": "git-notes",
     "completed_notes_count": {
-      "24.09": 0,
-      "24.10": 0,
-      "24.11": 0,
-      "24.12": 7,
       "25.01": 7,
       "25.02": 7,
       "25.03": 7,
@@ -40,7 +36,7 @@
     "details": "Git 笔记",
     "link": "https://tnotesjs.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
-    "updated_at": 1765680500427,
+    "updated_at": 1765719219660,
     "days_since_birth": 9220
   },
   "port": 9220,
