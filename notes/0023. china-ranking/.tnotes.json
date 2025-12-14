@@ -1,12 +1,12 @@
 {
-  "bilibili": ["BV1qpa6zrEeC"],
+  "bilibili": [],
   "tnotes": [],
   "yuque": [],
   "done": true,
   "deprecated": false,
   "enableDiscussions": true,
-  "description": "",
+  "description": "这是一个中国区 GitHub 用户排行榜，收集了中国开发者在 GitHub 上关注者数据，并区分开发者和 Markdown 工程师进行排名。",
   "id": "607eeed7-31a6-4053-a170-0be9f298d941",
   "created_at": 1758172027938,
-  "updated_at": 1758172027938
+  "updated_at": 1765686285299
 }

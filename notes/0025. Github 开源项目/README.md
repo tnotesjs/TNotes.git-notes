@@ -1,4 +1,4 @@
-# [0025. 概述｜Github 开源项目](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0025.%20%E6%A6%82%E8%BF%B0%EF%BD%9CGithub%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE)
+# [0025. Github 开源项目](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0025.%20Github%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE)
 
 <!-- region:toc -->
 

@@ -5,8 +5,8 @@
   "done": true,
   "deprecated": false,
   "enableDiscussions": true,
-  "description": "",
+  "description": "github-rank 统计了 Github 全球/中国用户排名，以及全球 Star 数最多的仓库排名。",
   "id": "430fb5f1-3337-4985-a422-df40806e0c34",
   "created_at": 1756996275000,
-  "updated_at": 1758871581722
+  "updated_at": 1765680784807
 }
