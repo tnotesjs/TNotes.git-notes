@@ -32,12 +32,13 @@
       "25.10": 18,
       "25.11": 18,
       "25.12": 18,
-      "26.01": 18
+      "26.01": 18,
+      "26.02": 18
     },
     "details": "Git 笔记",
     "link": "https://tnotesjs.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
-    "updated_at": 1767227723066,
+    "updated_at": 1769948361112,
     "days_since_birth": 9220
   },
   "port": 9220,
