@@ -69,4 +69,4 @@
 
 ## 5. ⏰ pending
 
-- [ ] [0026. m2mm](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0026.%20m2mm/README.md) ❌
+- [ ] [0026. m2mm](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0026.%20m2mm/README.md)
