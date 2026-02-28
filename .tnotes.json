@@ -38,7 +38,7 @@
     "details": "Git 笔记",
     "link": "https://tnotesjs.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
-    "updated_at": 1772284140638,
+    "updated_at": 1772285051844,
     "days_since_birth": 9220
   },
   "port": 9220,
@@ -46,14 +46,6 @@
     {
       "text": "🏠 Home",
       "link": "/"
-    },
-    {
-      "text": "📝 Introduction",
-      "link": "/Introduction"
-    },
-    {
-      "text": "🎯 Words",
-      "link": "/Words"
     },
     {
       "text": "⚙️ Settings",
@@ -66,10 +58,6 @@
     {
       "text": "📂 TNotes.yuque",
       "link": "https://www.yuque.com/tdahuyou/tnotes.yuque"
-    },
-    {
-      "text": "🔗 引用",
-      "link": "/References"
     }
   ],
   "socialLinks": [

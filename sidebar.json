@@ -6,138 +6,226 @@
       {
         "text": "✅ 0022. TNotes.git-notes",
         "link": "/notes/0022. TNotes.git-notes/README"
+      }
+    ]
+  },
+  {
+    "text": "2. 基础概念与入门",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "⏰ 0040. 基础概念与入门",
+        "link": "/notes/0040. 基础概念与入门/README"
       },
       {
-        "text": "⏰ 0010. new",
-        "link": "/notes/0010. new/README"
+        "text": "⏰ 0010. 版本控制简介",
+        "link": "/notes/0010. 版本控制简介/README"
       },
       {
-        "text": "⏰ 0011. new",
-        "link": "/notes/0011. new/README"
+        "text": "⏰ 0011. Git 安装与配置",
+        "link": "/notes/0011. Git 安装与配置/README"
       },
       {
-        "text": "⏰ 0012. new",
-        "link": "/notes/0012. new/README"
+        "text": "⏰ 0012. Git 基本原理",
+        "link": "/notes/0012. Git 基本原理/README"
+      }
+    ]
+  },
+  {
+    "text": "3. 本地操作与核心命令",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "⏰ 0039. 本地操作与核心命令",
+        "link": "/notes/0039. 本地操作与核心命令/README"
       },
       {
-        "text": "⏰ 0013. new",
-        "link": "/notes/0013. new/README"
+        "text": "⏰ 0013. 获取 Git 仓库",
+        "link": "/notes/0013. 获取 Git 仓库/README"
       },
       {
-        "text": "⏰ 0014. new",
-        "link": "/notes/0014. new/README"
+        "text": "⏰ 0014. 记录变更到仓库",
+        "link": "/notes/0014. 记录变更到仓库/README"
       },
       {
-        "text": "⏰ 0015. new",
-        "link": "/notes/0015. new/README"
+        "text": "⏰ 0015. 查看提交历史",
+        "link": "/notes/0015. 查看提交历史/README"
       },
       {
-        "text": "⏰ 0016. new",
-        "link": "/notes/0016. new/README"
+        "text": "⏰ 0016. 撤消操作",
+        "link": "/notes/0016. 撤消操作/README"
+      }
+    ]
+  },
+  {
+    "text": "4. 分支与合并",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "⏰ 0041. 分支与合并",
+        "link": "/notes/0041. 分支与合并/README"
       },
       {
-        "text": "⏰ 0017. new",
-        "link": "/notes/0017. new/README"
+        "text": "⏰ 0017. Git 分支机制",
+        "link": "/notes/0017. Git 分支机制/README"
       },
       {
-        "text": "⏰ 0018. new",
-        "link": "/notes/0018. new/README"
+        "text": "⏰ 0018. 分支合并",
+        "link": "/notes/0018. 分支合并/README"
       },
       {
-        "text": "⏰ 0019. new",
-        "link": "/notes/0019. new/README"
+        "text": "⏰ 0019. 合并冲突处理",
+        "link": "/notes/0019. 合并冲突处理/README"
       },
       {
-        "text": "⏰ 0020. new",
-        "link": "/notes/0020. new/README"
+        "text": "⏰ 0020. 分支管理策略",
+        "link": "/notes/0020. 分支管理策略/README"
+      }
+    ]
+  },
+  {
+    "text": "5. 远程协作",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "⏰ 0021. 远程协作",
+        "link": "/notes/0021. 远程协作/README"
       },
       {
-        "text": "⏰ 0021. new",
-        "link": "/notes/0021. new/README"
+        "text": "⏰ 0023. 远程仓库管理",
+        "link": "/notes/0023. 远程仓库管理/README"
       },
       {
-        "text": "⏰ 0023. new",
-        "link": "/notes/0023. new/README"
+        "text": "⏰ 0024. 标签管理",
+        "link": "/notes/0024. 标签管理/README"
       },
       {
-        "text": "⏰ 0024. new",
-        "link": "/notes/0024. new/README"
+        "text": "⏰ 0025. 多人协作流程",
+        "link": "/notes/0025. 多人协作流程/README"
+      }
+    ]
+  },
+  {
+    "text": "6. 进阶技巧与工具",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "⏰ 0038. 进阶技巧与工具",
+        "link": "/notes/0038. 进阶技巧与工具/README"
       },
       {
-        "text": "⏰ 0025. new",
-        "link": "/notes/0025. new/README"
+        "text": "⏰ 0044. 变基（Rebasing）",
+        "link": "/notes/0044. 变基（Rebasing）/README"
       },
       {
-        "text": "⏰ 0027. new",
-        "link": "/notes/0027. new/README"
+        "text": "⏰ 0027. 交互式变基",
+        "link": "/notes/0027. 交互式变基/README"
       },
       {
-        "text": "⏰ 0028. new",
-        "link": "/notes/0028. new/README"
+        "text": "⏰ 0028. Git 工具集",
+        "link": "/notes/0028. Git 工具集/README"
       },
       {
-        "text": "⏰ 0029. new",
-        "link": "/notes/0029. new/README"
+        "text": "⏰ 0029. 调试与恢复",
+        "link": "/notes/0029. 调试与恢复/README"
+      }
+    ]
+  },
+  {
+    "text": "7. 高级主题与自定义",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "⏰ 0030. 高级主题与自定义",
+        "link": "/notes/0030. 高级主题与自定义/README"
       },
       {
-        "text": "⏰ 0030. new",
-        "link": "/notes/0030. new/README"
+        "text": "⏰ 0043. Git 钩子（Hooks）",
+        "link": "/notes/0043. Git 钩子（Hooks）/README"
       },
       {
-        "text": "⏰ 0031. new",
-        "link": "/notes/0031. new/README"
+        "text": "⏰ 0031. Git 属性与策略",
+        "link": "/notes/0031. Git 属性与策略/README"
       },
       {
-        "text": "⏰ 0032. new",
-        "link": "/notes/0032. new/README"
+        "text": "⏰ 0032. 子模块与子树",
+        "link": "/notes/0032. 子模块与子树/README"
       },
       {
-        "text": "⏰ 0033. new",
-        "link": "/notes/0033. new/README"
+        "text": "⏰ 0033. Git 内部原理",
+        "link": "/notes/0033. Git 内部原理/README"
+      }
+    ]
+  },
+  {
+    "text": "8. 平台与实战",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "⏰ 0035. 平台与实战",
+        "link": "/notes/0035. 平台与实战/README"
+      },
+      {
+        "text": "⏰ 0042. 主流 Git 平台使用",
+        "link": "/notes/0042. 主流 Git 平台使用/README"
+      },
+      {
+        "text": "⏰ 0036. 常见工作流实战",
+        "link": "/notes/0036. 常见工作流实战/README"
+      },
+      {
+        "text": "⏰ 0037. 故障排除与常见问题",
+        "link": "/notes/0037. 故障排除与常见问题/README"
+      }
+    ]
+  },
+  {
+    "text": "9. TODO",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "⏰ 0026. m2mm",
+        "link": "/notes/0026. m2mm/README"
+      },
+      {
+        "text": "✅ 0006. 分支重命名",
+        "link": "/notes/0006. 分支重命名/README"
+      },
+      {
+        "text": "⏰ 0001. 修改指定远程仓库的 url",
+        "link": "/notes/0001. 修改指定远程仓库的 url/README"
+      },
+      {
+        "text": "⏰ 0005. git proxy 配置",
+        "link": "/notes/0005. git proxy 配置/README"
+      },
+      {
+        "text": "⏰ 0007. 一个项目多个 .gitignore 文件",
+        "link": "/notes/0007. 一个项目多个 .gitignore 文件/README"
+      },
+      {
+        "text": "⏰ 0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误",
+        "link": "/notes/0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误/README"
+      },
+      {
+        "text": "⏰ 0004. 处理每次使用 SSH 密钥进行身份验证时都需要输入密码短语（passphrase）的问题",
+        "link": "/notes/0004. 处理每次使用 SSH 密钥进行身份验证时都需要输入密码短语（passphrase）的问题/README"
+      },
+      {
+        "text": "⏰ 0003. git clone 报 RPC failed 错误",
+        "link": "/notes/0003. git clone 报 RPC failed 错误/README"
+      },
+      {
+        "text": "⏰ 0008. git stash",
+        "link": "/notes/0008. git stash/README"
+      },
+      {
+        "text": "⏰ 0009. git status",
+        "link": "/notes/0009. git status/README"
       },
       {
         "text": "⏰ 0034. new",
         "link": "/notes/0034. new/README"
-      },
-      {
-        "text": "⏰ 0035. new",
-        "link": "/notes/0035. new/README"
-      },
-      {
-        "text": "⏰ 0036. new",
-        "link": "/notes/0036. new/README"
-      },
-      {
-        "text": "⏰ 0037. new",
-        "link": "/notes/0037. new/README"
-      },
-      {
-        "text": "⏰ 0038. new",
-        "link": "/notes/0038. new/README"
-      },
-      {
-        "text": "⏰ 0039. new",
-        "link": "/notes/0039. new/README"
-      },
-      {
-        "text": "⏰ 0040. new",
-        "link": "/notes/0040. new/README"
-      },
-      {
-        "text": "⏰ 0041. new",
-        "link": "/notes/0041. new/README"
-      },
-      {
-        "text": "⏰ 0042. new",
-        "link": "/notes/0042. new/README"
-      },
-      {
-        "text": "⏰ 0043. new",
-        "link": "/notes/0043. new/README"
-      },
-      {
-        "text": "⏰ 0044. new",
-        "link": "/notes/0044. new/README"
       },
       {
         "text": "⏰ 0045. new",
@@ -362,52 +450,6 @@
       {
         "text": "⏰ 0100. new",
         "link": "/notes/0100. new/README"
-      }
-    ]
-  },
-  {
-    "text": "2. 其它",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "⏰ 0026. m2mm",
-        "link": "/notes/0026. m2mm/README"
-      },
-      {
-        "text": "✅ 0006. 分支重命名",
-        "link": "/notes/0006. 分支重命名/README"
-      },
-      {
-        "text": "⏰ 0001. 修改指定远程仓库的 url",
-        "link": "/notes/0001. 修改指定远程仓库的 url/README"
-      },
-      {
-        "text": "⏰ 0005. git proxy 配置",
-        "link": "/notes/0005. git proxy 配置/README"
-      },
-      {
-        "text": "⏰ 0007. 一个项目多个 .gitignore 文件",
-        "link": "/notes/0007. 一个项目多个 .gitignore 文件/README"
-      },
-      {
-        "text": "⏰ 0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误",
-        "link": "/notes/0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误/README"
-      },
-      {
-        "text": "⏰ 0004. 处理每次使用 SSH 密钥进行身份验证时都需要输入密码短语（passphrase）的问题",
-        "link": "/notes/0004. 处理每次使用 SSH 密钥进行身份验证时都需要输入密码短语（passphrase）的问题/README"
-      },
-      {
-        "text": "⏰ 0003. git clone 报 RPC failed 错误",
-        "link": "/notes/0003. git clone 报 RPC failed 错误/README"
-      },
-      {
-        "text": "⏰ 0008. git stash",
-        "link": "/notes/0008. git stash/README"
-      },
-      {
-        "text": "⏰ 0009. git status",
-        "link": "/notes/0009. git status/README"
       }
     ]
   }
