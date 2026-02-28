@@ -12,16 +12,17 @@
 - [5. 📒 `git status` 命令列表](#5--git-status-命令列表)
 
 <!-- endregion:toc -->
+
 - `git status` 用于检查当前仓库的状态，确保提交前的变更正确！
 
 ## 1. 📒 `git status` 命令的作用
 
-`git status` 命令用于**显示当前 Git 仓库的状态**，包括：
+`git status` 命令用于显示当前 Git 仓库的状态，包括：
 
-- 工作目录中的文件是否有 **修改**
-- 是否有 **新文件** 未被 Git 跟踪
-- 是否有 **文件已暂存但未提交**
-- **当前分支信息**（如是否有未推送的提交）
+- 工作目录中的文件是否有 修改
+- 是否有 新文件 未被 Git 跟踪
+- 是否有 文件已暂存但未提交
+- 当前分支信息（如是否有未推送的提交）
 
 ## 2. 📒 `git status` 的基本用法
 
@@ -51,7 +52,7 @@ Changes to be committed:
     new file:   staged_file.txt
 ```
 
-**解释：**
+解释：
 
 - `On branch main`：当前位于 `main` 分支
 - `Your branch is up to date with 'origin/main'`：本地分支与远程 `origin/main` 同步
@@ -98,8 +99,8 @@ A  staged_file.txt
 
 ## 4. 📒 `git status` 的适用场景
 
-- 确保提交前**没有遗漏的更改**
-- 在 Git 操作前检查**当前仓库状态**
+- 确保提交前没有遗漏的更改
+- 在 Git 操作前检查当前仓库状态
 - 结合 `git add` 和 `git commit` 进行版本控制
 
 ## 5. 📒 `git status` 命令列表

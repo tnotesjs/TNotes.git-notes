@@ -1,4 +1,4 @@
-# [0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF)
+# [0002. 尝试变更到远程仓库时遇到 Permission denied (publickey) 错误](<https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0002.%20%E5%B0%9D%E8%AF%95%E5%8F%98%E6%9B%B4%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E6%97%B6%E9%81%87%E5%88%B0%20Permission%20denied%20(publickey)%20%E9%94%99%E8%AF%AF>)
 
 <!-- region:toc -->
 
@@ -18,7 +18,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-当你尝试将代码推送到 GitHub 时遇到 `Permission denied (publickey).` 错误，**这通常意味着你的 SSH 密钥没有被正确配置或者没有被添加到 GitHub 账户中**。以下是一些解决这个问题的步骤：
+当你尝试将代码推送到 GitHub 时遇到 `Permission denied (publickey).` 错误，这通常意味着你的 SSH 密钥没有被正确配置或者没有被添加到 GitHub 账户中。以下是一些解决这个问题的步骤：
 
 ```bash
 # 检查是否已经生成了 SSH 密钥
@@ -48,7 +48,6 @@ cat ~/.ssh/id_ed25519.pub
 ssh -T git@github.com
 # 如果一切正常，你会看到一条欢迎信息，说明你已经成功通过 SSH 认证。
 ```
-
 
 ```bash
 # 确保远程 URL 正确

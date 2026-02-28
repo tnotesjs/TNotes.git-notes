@@ -103,11 +103,11 @@ deploy:
 
 GitLab 的特色功能：
 
-- **GitLab Runner**：可以在自己的服务器上运行 CI/CD 任务
-- **容器注册表**：内置 Docker 镜像仓库
-- **代码审查**：Merge Request（类似 GitHub 的 Pull Request）
-- **内置 Wiki**：项目文档管理
-- **DevOps 全链路**：从计划、编码到监控的完整工具链
+- GitLab Runner：可以在自己的服务器上运行 CI/CD 任务
+- 容器注册表：内置 Docker 镜像仓库
+- 代码审查：Merge Request（类似 GitHub 的 Pull Request）
+- 内置 Wiki：项目文档管理
+- DevOps 全链路：从计划、编码到监控的完整工具链
 
 ## 5. 🤔 其他 Git 平台有哪些？
 

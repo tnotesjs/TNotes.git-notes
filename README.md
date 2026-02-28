@@ -17,6 +17,7 @@
 ## 1. TNotes.git-notes
 
 - [x] [0022. TNotes.git-notes](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0022.%20TNotes.git-notes/README.md)
+- [x] [0034. Git 学习资料](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0034.%20Git%20%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/README.md)
 
 ## 2. 基础概念与入门
 
@@ -83,7 +84,6 @@
 - [ ] [0003. git clone 报 RPC failed 错误](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0003.%20git%20clone%20%E6%8A%A5%20RPC%20failed%20%E9%94%99%E8%AF%AF/README.md)
 - [ ] [0008. git stash](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0008.%20git%20stash/README.md)
 - [ ] [0009. git status](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0009.%20git%20status/README.md)
-- [ ] [0034. new](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0034.%20new/README.md)
 - [ ] [0045. new](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0045.%20new/README.md)
 - [ ] [0046. new](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0046.%20new/README.md)
 - [ ] [0047. new](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0047.%20new/README.md)

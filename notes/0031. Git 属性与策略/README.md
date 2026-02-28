@@ -45,7 +45,7 @@ database.xml merge=ours
 
 # 语言统计（用于 GitHub 语言识别）
 *.js linguist-detectable
-docs/** linguist-documentation
+docs/ linguist-documentation
 ```
 
 常用属性说明：

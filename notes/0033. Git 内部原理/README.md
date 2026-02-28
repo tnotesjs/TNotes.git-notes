@@ -73,7 +73,7 @@ git update-ref -d refs/heads/test
 
 ### 4.1. 松散对象与包文件
 
-Git 最初将每个对象存储为单独的文件（松散对象），存放在 `.git/objects/` 目录下。当松散对象过多时，Git 会将它们打包成**包文件（Packfile）**以节省空间和提高性能。
+Git 最初将每个对象存储为单独的文件（松散对象），存放在 `.git/objects/` 目录下。当松散对象过多时，Git 会将它们打包成包文件（Packfile）以节省空间和提高性能。
 
 包文件使用增量压缩：只存储对象之间的差异，而非完整内容。
 
@@ -142,7 +142,7 @@ GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key" git push
 
 ### 5.2. 底层命令（Plumbing Commands）
 
-Git 命令分为**瓷器命令（Porcelain）**和**底层命令（Plumbing）**。日常使用的 `git add`、`git commit` 等属于瓷器命令，而底层命令提供了更精细的控制：
+Git 命令分为瓷器命令（Porcelain）和底层命令（Plumbing）。日常使用的 `git add`、`git commit` 等属于瓷器命令，而底层命令提供了更精细的控制：
 
 ```bash
 # 将文件写入对象数据库

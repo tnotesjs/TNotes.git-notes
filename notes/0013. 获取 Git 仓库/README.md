@@ -62,9 +62,9 @@ git clone https://github.com/user/repo.git my-project
 
 Git 支持多种传输协议：
 
-- **HTTPS**：`https://github.com/user/repo.git`
-- **SSH**：`git@github.com:user/repo.git`
-- **Git 协议**：`git://github.com/user/repo.git`
+- HTTPS：`https://github.com/user/repo.git`
+- SSH：`git@github.com:user/repo.git`
+- Git 协议：`git://github.com/user/repo.git`
 
 SSH 协议需要配置 SSH 密钥，但不需要每次输入密码，适合日常开发使用。
 

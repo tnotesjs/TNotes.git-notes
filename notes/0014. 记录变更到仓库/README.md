@@ -40,9 +40,9 @@ git status
 
 输出会告诉你哪些文件被修改了、哪些文件已暂存、哪些文件未被跟踪。常见的状态信息包括：
 
-- **Untracked files**：新创建但还未被 Git 跟踪的文件
-- **Changes not staged for commit**：已修改但未暂存的文件
-- **Changes to be committed**：已暂存等待提交的文件
+- Untracked files：新创建但还未被 Git 跟踪的文件
+- Changes not staged for commit：已修改但未暂存的文件
+- Changes to be committed：已暂存等待提交的文件
 
 如果想要更简洁的输出，可以使用：
 
@@ -106,7 +106,7 @@ Thumbs.db
 - 以 `#` 开头的行是注释
 - 以 `/` 结尾表示目录
 - 以 `!` 开头表示取反（不忽略）
-- 支持 glob 模式匹配（`*`、`?`、`[abc]`、`**`）
+- 支持 glob 模式匹配（`*`、`?`、`[abc]`、``）
 
 注意：`.gitignore` 只能忽略未被跟踪的文件。如果文件已经被跟踪，需要先用 `git rm --cached <file>` 取消跟踪。
 
@@ -157,13 +157,13 @@ git commit -v
 
 ## 8. 🤔 如何跳过暂存区直接提交？
 
-如果你想跳过 `git add` 步骤，直接提交所有**已跟踪**文件的修改，可以使用 `-a` 参数：
+如果你想跳过 `git add` 步骤，直接提交所有已跟踪文件的修改，可以使用 `-a` 参数：
 
 ```bash
 git commit -a -m "修复导航栏样式问题"
 ```
 
-这等价于先执行 `git add -u` 然后 `git commit`。注意，`-a` 参数只会暂存已跟踪文件的修改，**不会添加新的未跟踪文件**。
+这等价于先执行 `git add -u` 然后 `git commit`。注意，`-a` 参数只会暂存已跟踪文件的修改，不会添加新的未跟踪文件。
 
 ## 9. 🤔 如何移除文件？
 
