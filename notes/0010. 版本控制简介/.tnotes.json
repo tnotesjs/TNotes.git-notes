@@ -2,10 +2,10 @@
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
-  "done": false,
-  "enableDiscussions": false,
-  "description": "",
+  "done": true,
+  "enableDiscussions": true,
+  "description": "本文介绍了版本控制的核心概念与演进历程（本地、集中式、分布式），并详细阐述了 Git 的诞生背景、核心特点及作为现代软件开发标配的原因。",
   "id": "94db3540-3702-4a7e-b13b-e1c99c0e7342",
   "created_at": 1772284111560,
-  "updated_at": 1772287352194
+  "updated_at": 1773130996854
 }

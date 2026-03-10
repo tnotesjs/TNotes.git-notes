@@ -20,12 +20,10 @@
 
 - [Git 官方文档 - Learn Book][5]
 - [Git 教程 - 菜鸟教程][1]
-- 开源项目 `visual-git-guide`
-  - [图解 Git（中文版）][2]
-  - [visual-git-guide - github - MarkLodato][3]
+- [visual-git-guide - github - MarkLodato][3]
+- [visual-git-guide - 图解 Git（中文版）][2]
 - [廖雪峰的 Git 教程][4]
-- 开源项目 - `java-eight-part` 中的 Git 教程
-  - [保密级 Git 教程，10000 字详细解读][6]
+- [java-eight-part - github - 保密级 Git 教程，10000 字详细解读][6]
 
 [1]: https://www.runoob.com/git/git-tutorial.html
 [2]: https://marklodato.github.io/visual-git-guide/index-zh-cn.html
