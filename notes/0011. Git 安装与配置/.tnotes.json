@@ -2,10 +2,10 @@
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
-  "done": false,
-  "enableDiscussions": false,
-  "description": "",
+  "done": true,
+  "enableDiscussions": true,
+  "description": "本文介绍了 Git 在 Windows、macOS、Linux 上的安装方法，以及用户信息、文本编辑器、命令别名等核心配置的使用与管理。",
   "id": "01b99153-17ca-42e1-83c0-a1621e522d89",
   "created_at": 1772284111561,
-  "updated_at": 1772286526786
+  "updated_at": 1773136281878
 }

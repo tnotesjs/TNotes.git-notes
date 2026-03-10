@@ -23,7 +23,7 @@
 
 - [ ] [0040. 基础概念与入门](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0040.%20%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%85%A5%E9%97%A8/README.md)
 - [x] [0010. 版本控制简介](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0010.%20%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%AE%80%E4%BB%8B/README.md)
-- [ ] [0011. Git 安装与配置](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0011.%20Git%20%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/README.md)
+- [x] [0011. Git 安装与配置](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0011.%20Git%20%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/README.md)
 - [ ] [0012. Git 基本原理](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0012.%20Git%20%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/README.md)
 
 ## 3. 本地操作与核心命令
