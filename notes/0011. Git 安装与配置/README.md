@@ -15,7 +15,8 @@
   - [6.1. 配置默认编辑器](#61-配置默认编辑器)
   - [6.2. 配置命令别名](#62-配置命令别名)
 - [7. 🤔 如何查看和管理 Git 配置信息？](#7--如何查看和管理-git-配置信息)
-- [8. 🔗 引用](#8--引用)
+- [8. 🤔 如何查看 git 的所有配置字段？](#8--如何查看-git-的所有配置字段)
+- [9. 🔗 引用](#9--引用)
 
 <!-- endregion:toc -->
 
@@ -28,6 +29,8 @@
 - 查看配置信息（`git config`）
 
 ## 2. 🫧 评价
+
+初次使用 Git 前需要的配置并不多，理论上设置好用户信息 user.name、user.email 就可以了。
 
 ## 3. 🤔 如何在不同操作系统上安装 Git？
 
@@ -134,11 +137,15 @@ git config user.email "project@example.com"
 Git 在需要输入信息时（如编写提交消息）会调用默认编辑器。可以设置为你常用的编辑器：
 
 ```bash
-# 设置为 VS Code
-git config --global core.editor "code --wait"
-
 # 设置为 Vim
 git config --global core.editor vim
+# 默认情况下会使用 vim 这种方式来编辑信息。
+# 对于不熟悉命令行编辑器（特别是 Vim）的用户来说，这往往会导致“卡住”或“不知道如何退出”的尴尬情况。
+# Vim 的操作逻辑（按 i 进入编辑，按 Esc，输入 :wq 保存退出）对非 Linux 用户非常不友好。设置为 VS Code 可以避免这种困惑。
+
+# 设置为 VS Code（如果 VS Code 也是你使用的主要 IDE，那么推荐你将 core.editor 设置为 code）
+git config --global core.editor "code --wait"
+# --wait 的作用：让命令行（终端）暂停执行，直到你关闭编辑器窗口后，Git 才能继续后续的操作。
 
 # 设置为 Nano
 git config --global core.editor nano
@@ -157,8 +164,6 @@ git config --global alias.lg "log --oneline --graph --all"
 ```
 
 配置后就可以使用 `git st` 代替 `git status`，`git lg` 代替冗长的日志命令。
-
-你可以通过 `git config --global --get-regexp ^alias\.` 来查看所有配置的别名。
 
 ## 7. 🤔 如何查看和管理 Git 配置信息？
 
@@ -181,7 +186,15 @@ git config user.name
 
 # 查看全局配置
 git config --global --list
+
+# 查看特定前缀的配置项（比如，以 alias. 前缀的全局配置）
+git config --global --get-regexp ^alias\.
+# --get-regexp 表示获取匹配正则表达式的配置项
 ```
+
+示例：
+
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs-2026@main/2026-03-10-17-08-47.png)
 
 如果需要删除某个配置项：
 
@@ -189,7 +202,19 @@ git config --global --list
 git config --global --unset alias.st
 ```
 
-## 8. 🔗 引用
+上述介绍的各种方式，都是通过 git 命令的方式来管理配置，实际上这些 git 配置都会写入到本地对应的配置文件中，因此实际上你也可以直接编辑不同的配置文件来完成 git 的配置。你可以直接通过 `git config --list --show-origin` 该命令来打印所有的配置信息以及这些信息对应的配置文件的位置。
+
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs-2026@main/2026-03-10-17-30-30.png)
+
+## 8. 🤔 如何查看 git 的所有配置字段？
+
+```bash
+git help config
+# 这将打开官方的 git-config 文档
+# 文档介绍了所有 config 配置字段以及 config 命令的过多用法
+```
+
+## 9. 🔗 引用
 
 - [Git - 官方网站][1]
 
