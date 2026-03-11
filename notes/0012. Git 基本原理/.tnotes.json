@@ -2,10 +2,10 @@
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
-  "done": false,
-  "enableDiscussions": false,
-  "description": "",
+  "done": true,
+  "enableDiscussions": true,
+  "description": "本文深入解析了 Git 基于“快照流”而非“差异”的核心数据模型（Blob、Tree、Commit），详细阐述了工作区、暂存区与版本库三大区域的划分，并系统梳理了文件从“未跟踪”到“已提交”的四种状态及其流转机制，旨在帮助开发者建立对 Git 底层原理与工作流的完整认知。",
   "id": "7ee5ed68-3a68-4da4-8778-ea894d997590",
   "created_at": 1772284111561,
-  "updated_at": 1772287352194
+  "updated_at": 1773232755040
 }
