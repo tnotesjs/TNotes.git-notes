@@ -28,7 +28,10 @@
 
 ## 2. 🫧 评价
 
-- todo
+有了 Git 仓库之后，下一步就是学习 Git 仓库中的文件状态管理了，包括：
+
+- 学会看 Git 仓库中的文件状态
+- 知道如何在工作区（Working Directory）、暂存区（Staging Area / Index）、版本库（Repository / .git）之间流转文件
 
 ## 3. 🤔 如何检查文件状态？
 
