@@ -29,7 +29,7 @@
 ## 3. 本地操作与核心命令
 
 - [ ] [0039. 本地操作与核心命令](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0039.%20%E6%9C%AC%E5%9C%B0%E6%93%8D%E4%BD%9C%E4%B8%8E%E6%A0%B8%E5%BF%83%E5%91%BD%E4%BB%A4/README.md)
-- [ ] [0013. 获取 Git 仓库](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0013.%20%E8%8E%B7%E5%8F%96%20Git%20%E4%BB%93%E5%BA%93/README.md)
+- [x] [0013. 获取 Git 仓库](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0013.%20%E8%8E%B7%E5%8F%96%20Git%20%E4%BB%93%E5%BA%93/README.md)
 - [ ] [0014. 记录变更到仓库](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0014.%20%E8%AE%B0%E5%BD%95%E5%8F%98%E6%9B%B4%E5%88%B0%E4%BB%93%E5%BA%93/README.md)
 - [ ] [0015. 查看提交历史](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0015.%20%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2/README.md)
 - [ ] [0016. 撤消操作](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0016.%20%E6%92%A4%E6%B6%88%E6%93%8D%E4%BD%9C/README.md)
