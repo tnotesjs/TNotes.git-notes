@@ -7,6 +7,7 @@
 - [3. 🤔 如何查看提交日志？](#3--如何查看提交日志)
 - [4. 🤔 如何格式化日志输出？](#4--如何格式化日志输出)
 - [5. 🤔 如何查看特定范围的提交？](#5--如何查看特定范围的提交)
+- [6. 🔗 引用](#6--引用)
 
 <!-- endregion:toc -->
 
@@ -19,6 +20,10 @@
 ## 2. 🫧 评价
 
 这篇笔记介绍了 `git log` 命令的一些基础用法。
+
+如果需求只是查看 Git 仓库的历史状态，有很多可视化的工具可用（比如 VS Code 中的 Git History 插件），没必要手敲 `git log` 命令。
+
+如果需要写脚本，或者需要在终端输出 Git 仓库的相关历史信息，那就有必要熟悉熟悉 `git log` 命令的使用了。
 
 ## 3. 🤔 如何查看提交日志？
 
@@ -137,3 +142,9 @@ git log --author="Tdahuyou" --since="2026-01-01" -- "notes\0015. 查看提交历
 
 #     📝 Update notes - 2026-02-28 21:37:59
 ```
+
+## 6. 🔗 引用
+
+- [Git History - vscode marketplace][1]
+
+[1]: https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory
