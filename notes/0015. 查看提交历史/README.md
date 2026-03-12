@@ -18,7 +18,7 @@
 
 ## 2. 🫧 评价
 
-- todo
+这篇笔记介绍了 `git log` 命令的一些基础用法。
 
 ## 3. 🤔 如何查看提交日志？
 
@@ -80,6 +80,9 @@ git log --pretty=fuller
 
 ```bash
 git log --pretty=format:"%h - %an, %ar : %s"
+# 1df198f - Tdahuyou, 15 minutes ago : 📝 Update notes - 2026-03-12 10:13:21
+# 3d4da12 - Tdahuyou, 23 minutes ago : update
+# 7da7418 - Tdahuyou, 36 minutes ago : 📝 Update notes - 2026-03-12 09:52:21
 ```
 
 常用的格式占位符：
@@ -118,8 +121,19 @@ git log --no-merges
 git log --merges
 ```
 
-这些过滤选项可以组合使用。例如，查看某个作者在特定时间段内对指定文件的修改：
+这些过滤选项可以组合使用。例如，查看作者 `Tdahuyou` 在特定时间段内对当前这篇笔记的修改历史：
 
 ```bash
-git log --author="Alice" --since="2024-06-01" -- src/app.js
+git log --author="Tdahuyou" --since="2026-01-01" -- "notes\0015. 查看提交历史\README.md"
+# commit 561ce221e6c0c11158e561526699b90bd59399fd
+# Author: Tdahuyou <dahuyoutop@gmail.com>
+# Date:   Sat Feb 28 21:48:47 2026 +0800
+
+#     📝 Update notes - 2026-02-28 21:48:46
+
+# commit 4d69a3bf3aa1fa40c303c658591c2867ce771694
+# Author: Tdahuyou <dahuyoutop@gmail.com>
+# Date:   Sat Feb 28 21:38:00 2026 +0800
+
+#     📝 Update notes - 2026-02-28 21:37:59
 ```
