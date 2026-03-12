@@ -2,10 +2,10 @@
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
-  "done": false,
-  "enableDiscussions": false,
-  "description": "",
+  "done": true,
+  "enableDiscussions": true,
+  "description": "介绍了 Git 撤消操作的全谱系，从本地提交的修补（--amend）、暂存与修改的恢复（restore/reset），到重点剖析了 git revert 通过“新增反向提交”实现安全回滚的核心机制，并清晰对比了其与 git reset 在协作场景下的本质差异",
   "id": "349d9595-6d68-4925-877c-30bef2137e98",
   "created_at": 1772284111563,
-  "updated_at": 1772287352194
+  "updated_at": 1773305738901
 }

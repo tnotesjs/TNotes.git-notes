@@ -4,8 +4,8 @@
   "yuque": [],
   "done": true,
   "enableDiscussions": true,
-  "description": "",
+  "description": "介绍了获取 Git 仓库的两种核心方式（本地初始化与远程克隆）",
   "id": "17a35e22-c338-43fd-b992-1b57043c6278",
   "created_at": 1772284111562,
-  "updated_at": 1773280341552
+  "updated_at": 1773305060512
 }

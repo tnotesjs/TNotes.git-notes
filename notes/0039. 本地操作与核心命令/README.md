@@ -9,8 +9,27 @@
 
 ## 1. 🎯 本节内容
 
-- todo
+- `git init`
+- `git clone`
+- `git status`
+- `git add`
+- `.gitignore`
+- `git diff`
+- `git commit`
+- `git rm`
+- `git mv`
+- `git log`
+- `git restore`
+- `git reset`
 
 ## 2. 🫧 评价
 
-- todo
+这一章提到的一些核心命令有些并不常用，本章介绍的命令中，个人日常使用频率最高的是下面这 3 条：
+
+```bash
+git add . # 添加所有变更文件到暂存区
+git commit -m"update" # 提交到本地仓库
+git push # 推送到远程仓库
+```
+
+<N :ids="['0013', '0014', '0015', '0016']" />

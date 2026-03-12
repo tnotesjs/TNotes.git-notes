@@ -4,8 +4,8 @@
   "yuque": [],
   "done": true,
   "enableDiscussions": true,
-  "description": "",
+  "description": "梳理了 Git 核心工作流，从状态检查、文件暂存、差异对比到提交与移除，清晰阐释了工作区、暂存区与版本库之间的流转机制",
   "id": "f70413bb-1cd0-4f04-beaf-e9472187da5c",
   "created_at": 1772284111562,
-  "updated_at": 1773281601714
+  "updated_at": 1773305100440
 }
