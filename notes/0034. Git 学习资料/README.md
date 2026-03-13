@@ -18,6 +18,7 @@
 
 ## 3. 🔗 引用
 
+- [LearnGitBranching - github - 通过可视化的闯关游戏来学习 Git][7]
 - [Git 官方文档 - Learn Book][5]
 - [Git 教程 - 菜鸟教程][1]
 - [visual-git-guide - github - MarkLodato][3]
@@ -31,3 +32,4 @@
 [4]: https://liaoxuefeng.com/books/git/introduction/index.html
 [5]: https://git-scm.com/book/zh/v2
 [6]: https://github.com/CoderLeixiaoshuai/java-eight-part/blob/master/docs/tools/git/%E4%BF%9D%E5%A7%86%E7%BA%A7Git%E6%95%99%E7%A8%8B%EF%BC%8C10000%E5%AD%97%E8%AF%A6%E8%A7%A3.md
+[7]: https://github.com/pcottle/learnGitBranching
