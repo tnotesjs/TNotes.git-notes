@@ -139,16 +139,16 @@ git remote set-url origin https://github.com/user/new-repo.git
 ...
 
 [remote "origin"]
-	url = https://github.com/tnotesjs/TNotes.git-notes
-	fetch = +refs/heads/*:refs/remotes/origin/*
+  url = https://github.com/tnotesjs/TNotes.git-notes
+  fetch = +refs/heads/*:refs/remotes/origin/*
 
 [remote "upstream"]
-	url = https://github.com/original/project.git
-	fetch = +refs/heads/*:refs/remotes/upstream/*
+  url = https://github.com/original/project.git
+  fetch = +refs/heads/*:refs/remotes/upstream/*
 
 [remote "gitee"]
-	url = git@gitee.com:mirror/project.git
-	fetch = +refs/heads/*:refs/remotes/gitee/*
+  url = git@gitee.com:mirror/project.git
+  fetch = +refs/heads/*:refs/remotes/gitee/*
 
 ...
 ```
