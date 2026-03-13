@@ -9,6 +9,7 @@
 - [5. 🤔 如何手动解决冲突？](#5--如何手动解决冲突)
 - [6. 🤔 如何使用合并工具解决冲突？](#6--如何使用合并工具解决冲突)
 - [7. 🤔 冲突解决后如何提交？](#7--冲突解决后如何提交)
+- [8. 🔗 引用](#8--引用)
 
 <!-- endregion:toc -->
 
@@ -22,7 +23,7 @@
 
 ## 2. 🫧 评价
 
-- todo
+需要了解冲突在什么场景下会产生，遇到冲突之后需要知道如何处理冲突。现代编辑器通常内置了 Git 冲突的解决组件，可以交互式地选择需要保留的内容。
 
 ## 3. 🤔 冲突是怎么产生的？
 
@@ -51,16 +52,18 @@ git status
 
 冲突文件中，Git 会用特殊标记标识冲突区域：
 
-```
+```text
 <<<<<<< HEAD
-这是当前分支（HEAD）的内容
+这是当前分支 (main) 的代码内容
 =======
-这是要合并进来的分支的内容
+这是要合并分支 (feature) 的代码内容
 >>>>>>> feature
 ```
 
 - `<<<<<<< HEAD` 到 `=======` 之间是当前分支的内容
 - `=======` 到 `>>>>>>> feature` 之间是被合并分支的内容
+
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs-2026@main/2026-03-13-13-30-12.png)
 
 ## 5. 🤔 如何手动解决冲突？
 
@@ -70,21 +73,7 @@ git status
 2. 决定保留哪部分内容（或者合并两者）
 3. 删除冲突标记（`<<<<<<<`、`=======`、`>>>>>>>`）
 4. 保存文件
-
-例如，将冲突区域修改为最终需要的内容：
-
-```javascript
-// 解决冲突后的最终代码
-function greet(name) {
-  return `Hello, ${name}! Welcome back.`
-}
-```
-
-解决完所有冲突文件后，将文件标记为已解决：
-
-```bash
-git add resolved_file.txt
-```
+5. 解决完所有冲突文件后再提交
 
 ## 6. 🤔 如何使用合并工具解决冲突？
 
@@ -109,7 +98,13 @@ git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 git config --global mergetool.keepBackup false
 ```
 
-常见的合并工具包括：VS Code、IntelliJ IDEA、Beyond Compare、KDiff3、Meld 等。现代编辑器通常内置了冲突解决界面，可以直接点击选择保留哪部分的内容。
+常见的合并工具包括：VS Code、IntelliJ IDEA、Beyond Compare、KDiff3、Meld 等。
+
+现代编辑器通常内置了冲突解决界面，可以直接点击选择保留哪部分的内容。
+
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs-2026@main/2026-03-13-13-30-12.png)
+
+比如在 VS Code 中，对于冲突的内容会显示按钮：`采用当前更改`、`采用传入的更改`、`保留双方更改`、`比较更改`，可以通过这些按钮来快速处理冲突的内容。
 
 ## 7. 🤔 冲突解决后如何提交？
 
@@ -132,3 +127,9 @@ git merge --abort
 ```
 
 这会撤销合并操作，将工作区恢复到合并前的状态。
+
+## 8. 🔗 引用
+
+- [git-mergetool - git-scm][1]
+
+[1]: https://git-scm.com/docs/git-mergetool/zh_HANS-CN
