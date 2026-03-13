@@ -2,10 +2,10 @@
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
-  "done": false,
-  "enableDiscussions": false,
-  "description": "",
+  "done": true,
+  "enableDiscussions": true,
+  "description": "Git 分支管理涵盖查看、重命名及安全删除分支的基础操作，并依据项目需求提供 Git Flow（严谨发布）、GitHub Flow（简洁持续部署）和主干开发（高频小步提交）等主流工作流策略以规范团队协作。",
   "id": "068445f0-c395-4d9c-b885-daf5fad6827f",
   "created_at": 1772284111565,
-  "updated_at": 1772286526786
+  "updated_at": 1773385495041
 }

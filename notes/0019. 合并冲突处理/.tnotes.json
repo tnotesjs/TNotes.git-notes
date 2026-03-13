@@ -4,8 +4,8 @@
   "yuque": [],
   "done": true,
   "enableDiscussions": true,
-  "description": "",
+  "description": "Git 合并冲突发生在多分支修改同一代码区域时，需通过手动编辑或可视化工具清除冲突标记以决定保留内容，最后执行 git add 和 git commit 完成合并集成。",
   "id": "513c3987-93a3-4688-a4e6-2684c3a4be31",
   "created_at": 1772284111564,
-  "updated_at": 1773384406138
+  "updated_at": 1773385243935
 }

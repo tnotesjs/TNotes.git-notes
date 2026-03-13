@@ -4,8 +4,8 @@
   "yuque": [],
   "done": true,
   "enableDiscussions": true,
-  "description": "",
+  "description": "Git 分支本质上是轻量级的可变指针而非代码副本，通过配合 HEAD 指针实现低成本的快速切换与并行开发，但需警惕分离头指针（Detached HEAD）状态下提交丢失的风险。",
   "id": "601ee261-9957-4ef9-a888-64d59bfc9503",
   "created_at": 1772284111564,
-  "updated_at": 1773382021074
+  "updated_at": 1773385179782
 }

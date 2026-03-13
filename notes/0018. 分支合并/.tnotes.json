@@ -4,8 +4,8 @@
   "yuque": [],
   "done": true,
   "enableDiscussions": true,
-  "description": "",
+  "description": "Git 分支合并是通过快进或三方合并算法，将不同开发线的差异智能集成并生成包含双父指针的特殊快照，其本质是基于共同祖先的差异运算与重组，而非简单的代码复制。",
   "id": "49cd3fe4-1987-4de9-902d-c602bcf11cb3",
   "created_at": 1772284111564,
-  "updated_at": 1773382021074
+  "updated_at": 1773385495041
 }

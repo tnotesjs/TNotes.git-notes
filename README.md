@@ -36,11 +36,11 @@
 
 ## 4. 分支与合并
 
-- [ ] [0041. 分支与合并](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0041.%20%E5%88%86%E6%94%AF%E4%B8%8E%E5%90%88%E5%B9%B6/README.md)
+- [x] [0041. 分支与合并](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0041.%20%E5%88%86%E6%94%AF%E4%B8%8E%E5%90%88%E5%B9%B6/README.md)
 - [x] [0017. Git 分支机制](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0017.%20Git%20%E5%88%86%E6%94%AF%E6%9C%BA%E5%88%B6/README.md)
 - [x] [0018. 分支合并](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0018.%20%E5%88%86%E6%94%AF%E5%90%88%E5%B9%B6/README.md)
 - [x] [0019. 合并冲突处理](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0019.%20%E5%90%88%E5%B9%B6%E5%86%B2%E7%AA%81%E5%A4%84%E7%90%86/README.md)
-- [ ] [0020. 分支管理策略](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0020.%20%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/README.md)
+- [x] [0020. 分支管理策略](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0020.%20%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/README.md)
 
 ## 5. 远程协作
 
