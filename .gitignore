@@ -84,6 +84,7 @@ coverage/
 dist/
 temp/
 tmp/
+tmps/
 *.min.js
 *.min.css
 *.map
@@ -93,3 +94,4 @@ tmp/
 
 # 忽略词典数据解析后生成的文件
 results
+

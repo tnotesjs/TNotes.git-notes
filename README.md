@@ -52,7 +52,7 @@
 ## 6. 进阶技巧与工具
 
 - [ ] [0038. 进阶技巧与工具](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0038.%20%E8%BF%9B%E9%98%B6%E6%8A%80%E5%B7%A7%E4%B8%8E%E5%B7%A5%E5%85%B7/README.md)
-- [ ] [0044. 变基（Rebasing）](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0044.%20%E5%8F%98%E5%9F%BA%EF%BC%88Rebasing%EF%BC%89/README.md)
+- [x] [0044. 变基（Rebasing）](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0044.%20%E5%8F%98%E5%9F%BA%EF%BC%88Rebasing%EF%BC%89/README.md)
 - [ ] [0027. 交互式变基](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0027.%20%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%8F%98%E5%9F%BA/README.md)
 - [ ] [0028. Git 工具集](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0028.%20Git%20%E5%B7%A5%E5%85%B7%E9%9B%86/README.md)
 - [ ] [0029. 调试与恢复](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0029.%20%E8%B0%83%E8%AF%95%E4%B8%8E%E6%81%A2%E5%A4%8D/README.md)
@@ -75,7 +75,7 @@
 ## 9. TODO
 
 - [ ] [0026. m2mm](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0026.%20m2mm/README.md)
-- [x] [0006. 分支重命名](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md)
+- [ ] [0006. 分支重命名](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0006.%20%E5%88%86%E6%94%AF%E9%87%8D%E5%91%BD%E5%90%8D/README.md)
 - [ ] [0001. 修改指定远程仓库的 url](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0001.%20%E4%BF%AE%E6%94%B9%E6%8C%87%E5%AE%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%20url/README.md)
 - [ ] [0005. git proxy 配置](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0005.%20git%20proxy%20%E9%85%8D%E7%BD%AE/README.md)
 - [ ] [0007. 一个项目多个 .gitignore 文件](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0007.%20%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E5%A4%9A%E4%B8%AA%20.gitignore%20%E6%96%87%E4%BB%B6/README.md)
