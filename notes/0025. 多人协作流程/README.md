@@ -20,7 +20,16 @@
 
 ## 2. 🫧 评价
 
-- todo
+如果是要给 github 平台中的开源项目提 PR，基本流程是：
+
+1. Fork
+2. Clone
+3. 在本地仓库中完成开发（比如开发 New Features、修改已知的 Issues、...）
+4. 推送代码到你账号下通过 Fork 获取的仓库
+5. 到原仓库下创建 Pull Request
+6. Code Review 讨论与合并 ...
+
+如果是公司项目，就是在上述流程的基础上将 Fork 给省掉，直接从原仓库推拉即可。
 
 ## 3. 🤔 什么是派生（Fork）与克隆？
 
@@ -86,7 +95,7 @@ git push origin feature
 然后在 GitHub/GitLab 等平台上：
 
 1. 访问原始仓库页面
-2. 点击 "New Pull Request" 或 "Create Merge Request"
+2. 点击 `New Pull Request` 或 `Create Merge Request`
 3. 选择要合并的分支（从你的 Fork 的 feature 分支合并到原始仓库的 main 分支）
 4. 填写 PR 标题和描述，说明修改内容
 5. 提交 PR

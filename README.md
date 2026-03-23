@@ -44,10 +44,10 @@
 
 ## 5. 远程协作
 
-- [ ] [0021. 远程协作](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0021.%20%E8%BF%9C%E7%A8%8B%E5%8D%8F%E4%BD%9C/README.md)
+- [x] [0021. 远程协作](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0021.%20%E8%BF%9C%E7%A8%8B%E5%8D%8F%E4%BD%9C/README.md)
 - [x] [0023. 远程仓库管理](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0023.%20%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/README.md)
 - [x] [0024. 标签管理](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0024.%20%E6%A0%87%E7%AD%BE%E7%AE%A1%E7%90%86/README.md)
-- [ ] [0025. 多人协作流程](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0025.%20%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%E6%B5%81%E7%A8%8B/README.md)
+- [x] [0025. 多人协作流程](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0025.%20%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%E6%B5%81%E7%A8%8B/README.md)
 
 ## 6. 进阶技巧与工具
 

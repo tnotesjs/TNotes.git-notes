@@ -2,10 +2,10 @@
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
-  "done": false,
-  "enableDiscussions": false,
-  "description": "",
+  "done": true,
+  "enableDiscussions": true,
+  "description": "本文概述了在 GitHub 上参与开源项目，或公司团队项目中的多人协作标准流程，包括派生（Fork）、克隆、同步上游代码、推送变更和发起 Pull Request 等关键步骤。",
   "id": "25d9a32f-d5c3-43b0-bf10-36648da56035",
   "created_at": 1772284111566,
-  "updated_at": 1772287352194
+  "updated_at": 1774268896415
 }

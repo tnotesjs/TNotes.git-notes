@@ -4,7 +4,7 @@
   "yuque": [],
   "done": true,
   "enableDiscussions": true,
-  "description": "",
+  "description": "本文概述了 Git 远程仓库管理的核心操作，包括查看、配置、同步数据及分支跟踪，以支持本地与远程仓库的有效协作。",
   "id": "52521561-c370-4937-b234-5531c7dcdc05",
   "created_at": 1772284111566,
   "updated_at": 1773900432454
