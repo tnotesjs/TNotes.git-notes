@@ -19,10 +19,6 @@
     },
     "title": "git-notes",
     "completed_notes_count": {
-      "25.01": 7,
-      "25.02": 7,
-      "25.03": 7,
-      "25.04": 7,
       "25.05": 0,
       "25.06": 7,
       "25.07": 13,
@@ -32,14 +28,15 @@
       "25.11": 18,
       "25.12": 18,
       "26.01": 18,
-      "26.02": 2,
-      "26.03": 21
+      "26.02": 3,
+      "26.03": 21,
+      "26.04": 21
     },
     "details": "Git 笔记",
     "link": "https://tnotesjs.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
-    "updated_at": 1774964018000,
-    "days_since_birth": 9773
+    "updated_at": 1775000901000,
+    "days_since_birth": 9774
   },
   "port": 9220,
   "menuItems": [
