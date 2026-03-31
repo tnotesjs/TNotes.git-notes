@@ -8,4 +8,8 @@ hero:
     alt: TNotes logo
 ---
 
+<script setup>
+import SidebarCard from '@tnotesjs/core/vitepress/components/SidebarCard/SidebarCard.vue'
+</script>
+
 <SidebarCard pending />
