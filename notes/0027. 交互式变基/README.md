@@ -8,6 +8,7 @@
 - [4. 🤔 如何压缩提交？](#4--如何压缩提交)
   - [4.1. squash](#41-squash)
   - [4.2. fixup](#42-fixup)
+  - [4.3. 对比 squash 和 fixup](#43-对比-squash-和-fixup)
 - [5. 🤔 如何编辑与拆分提交？](#5--如何编辑与拆分提交)
   - [5.1. 修改提交内容](#51-修改提交内容)
   - [5.2. 拆分提交为多个](#52-拆分提交为多个)
@@ -101,7 +102,7 @@ fixup def5678 修复用户模型的字段
 fixup ghi9012 补充用户模型的验证
 ```
 
-使用 `fixup` 的快捷方式——在提交时使用 `--fixup` 参数：
+使用 `fixup` 的快捷方式 => 在提交时使用 `--fixup` 参数：
 
 ```bash
 # 创建一个标记为 fixup 的提交
@@ -110,6 +111,14 @@ git commit --fixup=abc1234
 # 自动变基，将 fixup 提交合并
 git rebase -i --autosquash HEAD~5
 ```
+
+### 4.3. 对比 squash 和 fixup
+
+| 对比项 | squash | fixup |
+| --- | --- | --- |
+| 语义层面 | 表示“把东西压在一起”的意思，直觉上就是“合并” | 表示“修补一下”，直觉上就是“这个 commit 只是修修补补，不重要” |
+| 如何处理被压缩的 commit 的 message | 保留，会打开编辑器让你合并被压缩的 commit 的 message | 丢弃，fixup 的 commit message 直接被丢弃 |
+| 适用场景 | 两个 commit 都有独立的意义，想保留说明 | 后面的 commit 纯粹是修补，message 没有保留价值 |
 
 ## 5. 🤔 如何编辑与拆分提交？
 
@@ -127,9 +136,14 @@ Git 会在 `def5678` 处暂停。此时你可以：
 
 ```bash
 # 修改文件
-# ...
+
+# 重新暂存
 git add .
+
+# 重写 commit message
 git commit --amend
+
+# 提交修改完毕之后，继续 rebase
 git rebase --continue
 ```
 
