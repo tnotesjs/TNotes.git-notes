@@ -52,22 +52,24 @@ git rebase -i HEAD~3
 执行后会打开编辑器，显示提交列表：
 
 ```
-pick abc1234 第一次提交的 commit message（这是最旧的）
-pick def5678 第二次提交的 commit message
-pick ghi9012 第三次提交的 commit message（这是最新的）
+pick abc1234（这是 commitID） 第一次提交的 commit message
+pick def5678（这是 commitID） 第二次提交的 commit message
+pick ghi9012（这是 commitID） 第三次提交的 commit message
 ```
 
-将想要修改消息的提交前的 `pick` 改为 `reword`（或简写为 `r`），如果要移除某个提交信息，可以将 `pick` 改为 `drop`（或简写为 `d`）。
+排在最前边儿的是最旧的（最早提交的），排在结尾的时最新的（最近提交的）。
+
+找到你需要修改 commit message 的提交，将修改消息的提交前的指令 `pick` 改为 `reword`（或简写为 `r`），重写提交消息。
 
 ```
-pick abc1234 第一次提交
-reword def5678 第二次提交
-pick ghi9012 第三次提交
+pick abc1234 第一次提交的 commit message
+reword def5678 第二次提交的 commit message
+pick ghi9012 第三次提交的 commit message
 ```
 
 保存退出后，Git 会依次打开编辑器让你修改对应提交的消息。
 
-注意：交互式变基会重写被修改提交及其后续所有提交的 SHA-1 值，因此只应对未推送的提交使用。如果改动的是远程仓库的提交，会导致历史被破坏。
+注意：修改历史提交信息会重写被修改提交及其后续所有提交的 SHA-1 值，因此只应对未推送的提交使用，如果改的是已推送到远程仓库的提交，会导致历史被破坏，进而导致你和其它协作者的历史版本不统一。
 
 示例：
 
@@ -86,6 +88,8 @@ pick abc1234 添加用户模型
 squash def5678 修复用户模型的字段
 squash ghi9012 补充用户模型的验证
 ```
+
+![svg](./assets/2.svg)
 
 ### 4.2. fixup
 
