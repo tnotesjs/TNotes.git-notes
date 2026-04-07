@@ -146,6 +146,8 @@ git rebase -i HEAD~3
 | `reword` | 保留提交，但修改提交信息（commit message） |
 | `squash` | 将该提交合并到前一个提交中（常用于将 "fix typo", "add logic" 合并为一个完整的 "add feature" 提交） |
 | `drop` | 删除该提交 |
+| `edit` | 暂停在该提交处，允许你修改内容后再继续 |
+| `fixup` | 类似 squash，但丢弃该提交的 message（只保留前一个提交的 message） |
 
 ## 8. 🤔 如何使用 `--onto` 参数，实现手术刀式变基？
 
