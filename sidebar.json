@@ -58,6 +58,10 @@
       {
         "text": "✅ 0016. 撤消操作",
         "link": "/notes/0016. 撤消操作/README"
+      },
+      {
+        "text": "⏰ 0008. 贮藏（Stashing）",
+        "link": "/notes/0008. 贮藏（Stashing）/README"
       }
     ]
   },
@@ -218,10 +222,6 @@
       {
         "text": "⏰ 0003. git clone 报 RPC failed 错误",
         "link": "/notes/0003. git clone 报 RPC failed 错误/README"
-      },
-      {
-        "text": "⏰ 0008. git stash",
-        "link": "/notes/0008. git stash/README"
       },
       {
         "text": "⏰ 0009. git status",
