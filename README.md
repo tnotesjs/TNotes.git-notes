@@ -33,7 +33,7 @@
 - [x] [0014. 记录变更到仓库](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0014.%20%E8%AE%B0%E5%BD%95%E5%8F%98%E6%9B%B4%E5%88%B0%E4%BB%93%E5%BA%93/README.md)
 - [x] [0015. 查看提交历史](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0015.%20%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2/README.md)
 - [x] [0016. 撤消操作](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0016.%20%E6%92%A4%E6%B6%88%E6%93%8D%E4%BD%9C/README.md)
-- [ ] [0008. 贮藏（Stashing）](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0008.%20%E8%B4%AE%E8%97%8F%EF%BC%88Stashing%EF%BC%89/README.md)
+- [x] [0008. 贮藏（Stashing）](https://github.com/tnotesjs/TNotes.git-notes/tree/main/notes/0008.%20%E8%B4%AE%E8%97%8F%EF%BC%88Stashing%EF%BC%89/README.md)
 
 ## 4. 分支与合并
 
