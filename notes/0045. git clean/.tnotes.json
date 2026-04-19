@@ -1,0 +1,11 @@
+{
+  "bilibili": [],
+  "tnotes": [],
+  "yuque": [],
+  "done": true,
+  "enableDiscussions": true,
+  "description": "git clean 主要用于删除工作目录中未被跟踪的文件，删除行为不可逆，使用时需小心。",
+  "id": "d8b38bbb-8794-4fe0-87f9-4f11e8ad33b8",
+  "created_at": 1776594337000,
+  "updated_at": 1776594337000
+}
