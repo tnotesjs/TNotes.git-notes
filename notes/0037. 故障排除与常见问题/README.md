@@ -2,17 +2,17 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 如何复盘合并冲突？](#3--如何复盘合并冲突)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 如何复盘合并冲突？](#3-如何复盘合并冲突)
   - [3.1. 冲突的常见原因](#31-冲突的常见原因)
   - [3.2. 预防冲突的策略](#32-预防冲突的策略)
   - [3.3. 复盘工具](#33-复盘工具)
-- [4. 🤔 如何处理仓库中的敏感数据？](#4--如何处理仓库中的敏感数据)
+- [4. 如何处理仓库中的敏感数据？](#4-如何处理仓库中的敏感数据)
   - [4.1. 使用 git filter-branch](#41-使用-git-filter-branch)
   - [4.2. 使用 BFG Repo-Cleaner（推荐）](#42-使用-bfg-repo-cleaner推荐)
   - [4.3. 预防措施](#43-预防措施)
-- [5. 🤔 常见错误信息如何解读与解决？](#5--常见错误信息如何解读与解决)
+- [5. 常见错误信息如何解读与解决？](#5-常见错误信息如何解读与解决)
   - [5.1. fatal: not a git repository](#51-fatal-not-a-git-repository)
   - [5.2. error: failed to push some refs](#52-error-failed-to-push-some-refs)
   - [5.3. fatal: refusing to merge unrelated histories](#53-fatal-refusing-to-merge-unrelated-histories)
@@ -22,17 +22,17 @@
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - 合并冲突复盘
 - 处理敏感数据（`git filter-branch` 与 BFG Repo-Cleaner）
 - 常见错误信息解读与解决
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 如何复盘合并冲突？
+## 3. 如何复盘合并冲突？
 
 当合并频繁出现冲突时，需要分析原因并采取预防措施。
 
@@ -72,7 +72,7 @@ git config --global rerere.enabled true
 
 开启 `rerere`（Reuse Recorded Resolution）后，Git 会记录你解决冲突的方式，下次遇到相同冲突时自动应用。
 
-## 4. 🤔 如何处理仓库中的敏感数据？
+## 4. 如何处理仓库中的敏感数据？
 
 如果不小心将密码、密钥等敏感数据提交到了仓库中，即使后续删除了文件，这些数据仍然存在于提交历史中。需要使用专门的工具彻底清除。
 
@@ -122,7 +122,7 @@ git push --force
 - 在 `pre-commit` 钩子中检测敏感信息
 - 在 GitHub 上开启 Secret Scanning 功能
 
-## 5. 🤔 常见错误信息如何解读与解决？
+## 5. 常见错误信息如何解读与解决？
 
 ### 5.1. fatal: not a git repository
 

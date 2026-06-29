@@ -2,20 +2,20 @@
 
 <!-- region:toc -->
 
-- [1. 📒 `git status` 命令的作用](#1--git-status-命令的作用)
-- [2. 📒 `git status` 的基本用法](#2--git-status-的基本用法)
+- [1. `git status` 命令的作用](#1-git-status-命令的作用)
+- [2. `git status` 的基本用法](#2-git-status-的基本用法)
   - [2.1. 查看仓库状态](#21-查看仓库状态)
   - [2.2. `git status -s`（简洁模式）](#22-git-status--s简洁模式)
   - [2.3. `git status --short`](#23-git-status---short)
-- [3. 📒 文件状态说明](#3--文件状态说明)
-- [4. 📒 `git status` 的适用场景](#4--git-status-的适用场景)
-- [5. 📒 `git status` 命令列表](#5--git-status-命令列表)
+- [3. 文件状态说明](#3-文件状态说明)
+- [4. `git status` 的适用场景](#4-git-status-的适用场景)
+- [5. `git status` 命令列表](#5-git-status-命令列表)
 
 <!-- endregion:toc -->
 
 - `git status` 用于检查当前仓库的状态，确保提交前的变更正确！
 
-## 1. 📒 `git status` 命令的作用
+## 1. `git status` 命令的作用
 
 `git status` 命令用于显示当前 Git 仓库的状态，包括：
 
@@ -24,7 +24,7 @@
 - 是否有 文件已暂存但未提交
 - 当前分支信息（如是否有未推送的提交）
 
-## 2. 📒 `git status` 的基本用法
+## 2. `git status` 的基本用法
 
 ### 2.1. 查看仓库状态
 
@@ -84,7 +84,7 @@ A  staged_file.txt
 
 `git status --short` 和 `git status -s` 是相同的，提供简洁输出。
 
-## 3. 📒 文件状态说明
+## 3. 文件状态说明
 
 | 状态 | 说明                 |
 | ---- | -------------------- |
@@ -97,13 +97,13 @@ A  staged_file.txt
 | `R ` | 文件被重命名         |
 | `UU` | 发生合并冲突         |
 
-## 4. 📒 `git status` 的适用场景
+## 4. `git status` 的适用场景
 
 - 确保提交前没有遗漏的更改
 - 在 Git 操作前检查当前仓库状态
 - 结合 `git add` 和 `git commit` 进行版本控制
 
-## 5. 📒 `git status` 命令列表
+## 5. `git status` 命令列表
 
 | 命令                         | 作用                       |
 | ---------------------------- | -------------------------- |

@@ -31,23 +31,20 @@
       "26.02": 3,
       "26.03": 21,
       "26.04": 24,
+      "26.05": 24,
       "26.06": 24
     },
     "details": "Git 笔记",
     "link": "https://tnotesjs.github.io/TNotes.git-notes/",
     "created_at": 1727172590000,
-    "updated_at": 1780376898000,
-    "days_since_birth": 9836
+    "updated_at": 1782715904000,
+    "days_since_birth": 9863
   },
   "port": 9220,
   "menuItems": [
     {
       "text": "🏠 Home",
       "link": "/"
-    },
-    {
-      "text": "⚙️ Settings",
-      "link": "/Settings"
     },
     {
       "text": "📒 TNotes",

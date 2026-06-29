@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 
-- [1. 💻 git clone => ❌ RPC failed](#1--git-clone---rpc-failed)
-- [2. 💻 其他解决方案](#2--其他解决方案)
+- [1. git clone => ❌ RPC failed](#1-git-clone---rpc-failed)
+- [2. 其他解决方案](#2-其他解决方案)
   - [2.1. 检查网络连接](#21-检查网络连接)
   - [2.2. 分段克隆](#22-分段克隆)
   - [2.3. 使用 SSH 克隆](#23-使用-ssh-克隆)
@@ -11,9 +11,10 @@
   - [2.5. 更新 Git](#25-更新-git)
 
 <!-- endregion:toc -->
+
 - 解决办法：`git config --global http.sslVerify false`
 
-## 1. 💻 git clone => ❌ RPC failed
+## 1. git clone => ❌ RPC failed
 
 ```shell
 # 克隆失败
@@ -54,7 +55,7 @@ git clone https://github.com/Tdahuyou/electron.git
 # Resolving deltas: 100% (181/181), done. ✅
 ```
 
-## 2. 💻 其他解决方案
+## 2. 其他解决方案
 
 ### 2.1. 检查网络连接
 
@@ -63,7 +64,6 @@ git clone https://github.com/Tdahuyou/electron.git
 ### 2.2. 分段克隆
 
 如果上述方法仍然无效，你可以尝试分段克隆。首先克隆一个较浅的历史记录，然后再逐步获取更多的历史记录。
-
 
 ```sh
 # 浅克隆

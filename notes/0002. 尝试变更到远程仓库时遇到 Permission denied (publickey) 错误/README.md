@@ -2,11 +2,11 @@
 
 <!-- region:toc -->
 
-- [1. 💻 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误的解决流程](#1--尝试将代码推送到-github-时遇到-permission-denied-publickey-错误的解决流程)
+- [1. 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误的解决流程](#1-尝试将代码推送到-github-时遇到-permission-denied-publickey-错误的解决流程)
 
 <!-- endregion:toc -->
 
-## 1. 💻 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误的解决流程
+## 1. 尝试将代码推送到 GitHub 时遇到 Permission denied (publickey). 错误的解决流程
 
 ```bash
 # 错误示例

@@ -2,18 +2,18 @@
 
 <!-- region:toc -->
 
-- [1. 🧑🏻‍💻 m2mm](#1--m2mm)
-- [2. 🔗 m2mm - github 仓库](#2--m2mm---github-仓库)
-- [3. 🔗 网页版 - 在线使用](#3--网页版---在线使用)
-- [4. 🔗 chrome 插件版](#4--chrome-插件版)
-- [5. 💻 基本使用流程](#5--基本使用流程)
-- [6. 📦 build](#6--build)
-- [7. 🤔 m2mm 都有哪些应用场景？](#7--m2mm-都有哪些应用场景)
-- [8. ⌛️ 自动识别文章](#8-️-自动识别文章)
+- [1. ‍💻 m2mm](#1--m2mm)
+- [2. m2mm - github 仓库](#2-m2mm---github-仓库)
+- [3. 网页版 - 在线使用](#3-网页版---在线使用)
+- [4. chrome 插件版](#4-chrome-插件版)
+- [5. 基本使用流程](#5-基本使用流程)
+- [6. build](#6-build)
+- [7. m2mm 都有哪些应用场景？](#7-m2mm-都有哪些应用场景)
+- [8. ️ 自动识别文章](#8-️-自动识别文章)
 
 <!-- endregion:toc -->
 
-## 1. 🧑🏻‍💻 m2mm
+## 1. ‍💻 m2mm
 
 - m2mm（markdown to markmap）是一款将无序列表形式的 markdown 内容转为 markmap 思维导图格式的工具。
 - 转换结果是只读的，主要用于 临时预览。
@@ -21,29 +21,29 @@
   - 结合 m2mm - 以思维导图的形式来呈现笔记大纲，这也是写这个小工具的初衷。
   - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-02-19-21-28.png)
 
-## 2. 🔗 m2mm - github 仓库
+## 2. m2mm - github 仓库
 
 - https://github.com/Tdahuyou/m2mm
 
-## 3. 🔗 网页版 - 在线使用
+## 3. 网页版 - 在线使用
 
 - https://tdahuyou.github.io/m2mm/
 - 可在电脑、平板、手机上访问。
 
-## 4. 🔗 chrome 插件版
+## 4. chrome 插件版
 
 - https://chromewebstore.google.com/detail/m2mm/efagcmmcgdofnhlpajgdpfdmicmkjkda?authuser=0&hl=zh-CN
 - sidebar 默认位置是从右边弹出，可以通过 chrome 浏览器设置修改 sidebar 的位置为左侧。
   - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-02-19-21-39.png)
 
-## 5. 💻 基本使用流程
+## 5. 基本使用流程
 
 - 在 TNotes 上复制笔记大纲，然后丢到 m2mm 中。
   - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-02-19-22-10.png)
 - 也可以在 github 中直接复制文件原始内容。
   - ![](assets/2024-12-06-17-08-00-m2mm-usage.gif)
 
-## 6. 📦 build
+## 6. build
 
 - clone 仓库：
 
@@ -59,7 +59,7 @@ npm run build
 
 - ![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-02-19-23-06.png)
 
-## 7. 🤔 m2mm 都有哪些应用场景？
+## 7. m2mm 都有哪些应用场景？
 
 - 只要你的内容是以 markdown 无序列表来编写的，都可以丢到 m2mm 中转换成思维导图的形式。
 - 比如你有如下格式的笔记，你可以一键复制，然后丢到 m2mm 中。
@@ -132,7 +132,7 @@ https://github.com/Tdahuyou/javascript/blob/main/0001.%20var%20%E5%85%B3%E9%94%A
 - 可以保存一下提问模板，后续每次在提问的时候，只需要更新咨询的文章连接即可。
 - 也可以多问几篇文章，然后利用类似文本编辑器（比如 vscode）对 AI 的回复格式做一些微调，合并在一起，然后一起丢到 m2mm 中，一次阅读多篇文档。
 
-## 8. ⌛️ 自动识别文章
+## 8. ️ 自动识别文章
 
 - 基本流程：
   - 第一步：自动将页面 html 转为 markdown；

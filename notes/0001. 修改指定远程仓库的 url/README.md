@@ -2,17 +2,17 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 💻 使用 `git remote set-url` 命令](#2--使用-git-remote-set-url-命令)
-- [3. 💻 直接编辑 `.git/config` 文件](#3--直接编辑-gitconfig-文件)
+- [1. 本节内容](#1-本节内容)
+- [2. 使用 `git remote set-url` 命令](#2-使用-git-remote-set-url-命令)
+- [3. 直接编辑 `.git/config` 文件](#3-直接编辑-gitconfig-文件)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - `git remote set-url origin 新的URL`
 
-## 2. 💻 使用 `git remote set-url` 命令
+## 2. 使用 `git remote set-url` 命令
 
 要修改 Git 仓库中远程 `origin` 的 URL，你可以使用 `git remote set-url` 命令。
 
@@ -29,7 +29,7 @@ git remote set-url origin https://github.com/username/new-repo.git
 git remote -v
 ```
 
-## 3. 💻 直接编辑 `.git/config` 文件
+## 3. 直接编辑 `.git/config` 文件
 
 你也可以直接编辑本地仓库的 `.git/config` 文件来更改 `origin` 的 URL。找到 `[remote "origin"]` 部分，修改 `url` 行的内容。这种方法比较适合那些不熟悉命令行的人，但需要小心处理，以免破坏配置文件。
 

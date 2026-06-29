@@ -2,21 +2,21 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 Git 中的 Stash 是什么？](#3--git-中的-stash-是什么)
-- [4. 🤔 `git stash` 命令的作用是什么？](#4--git-stash-命令的作用是什么)
-- [5. 🤔 和 Stash 相关的 Git 常用命令都有哪些？](#5--和-stash-相关的-git-常用命令都有哪些)
-- [6. 🤔 Stash 只存在于本地仓库中吗？](#6--stash-只存在于本地仓库中吗)
-- [7. 🤔 Stash 适合长期保存吗？](#7--stash-适合长期保存吗)
-- [8. 🤔 Stash 通常会在什么场景下使用？](#8--stash-通常会在什么场景下使用)
-- [9. 🤔 每次 `git stash` 都会创建一个新的 `stash@{0}` 吗？](#9--每次-git-stash-都会创建一个新的-stash0-吗)
-- [10. 🆚 `git stash push -m` vs `git stash save`](#10--git-stash-push--m-vs-git-stash-save)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. Git 中的 Stash 是什么？](#3-git-中的-stash-是什么)
+- [4. `git stash` 命令的作用是什么？](#4-git-stash-命令的作用是什么)
+- [5. 和 Stash 相关的 Git 常用命令都有哪些？](#5-和-stash-相关的-git-常用命令都有哪些)
+- [6. Stash 只存在于本地仓库中吗？](#6-stash-只存在于本地仓库中吗)
+- [7. Stash 适合长期保存吗？](#7-stash-适合长期保存吗)
+- [8. Stash 通常会在什么场景下使用？](#8-stash-通常会在什么场景下使用)
+- [9. 每次 `git stash` 都会创建一个新的 `stash@{0}` 吗？](#9-每次-git-stash-都会创建一个新的-stash0-吗)
+- [10. `git stash push -m` vs `git stash save`](#10-git-stash-push--m-vs-git-stash-save)
   - [10.1. `push` 支持更多选项，`save` 不支持](#101-push-支持更多选项save-不支持)
   - [10.2. `save` 在新版 Git 中会提示弃用](#102-save-在新版-git-中会提示弃用)
   - [10.3. `push` 还支持 `--staged`（Git 2.35+）](#103-push-还支持---stagedgit-235)
-- [11. 🤔 Stash 对象和普通 Commit 对象有什么区别？](#11--stash-对象和普通-commit-对象有什么区别)
-- [12. 🤔 为什么 Stash 需要记录多个 parent？](#12--为什么-stash-需要记录多个-parent)
+- [11. Stash 对象和普通 Commit 对象有什么区别？](#11-stash-对象和普通-commit-对象有什么区别)
+- [12. 为什么 Stash 需要记录多个 parent？](#12-为什么-stash-需要记录多个-parent)
   - [12.1. 先理解普通 commit 为什么只有一个 parent](#121-先理解普通-commit-为什么只有一个-parent)
   - [12.2. Stash 为什么需要多个 parent](#122-stash-为什么需要多个-parent)
   - [12.3. pop 的时候怎么用](#123-pop-的时候怎么用)
@@ -25,20 +25,20 @@
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - Stash 的本质
 - Stash 在 Git 中的表现形式
 - Stash 和 Commit 之间的区别
 - `git stash` 相关命令的基本用法
 
-## 2. 🫧 评价
+## 2. 评价
 
 `git stash` 是一个非常实用的命令，适用于需要临时存储更改的场景！
 
 需要注意它主要是用来解决临时存储的需求的，如果是需要长期存储，或者需要同步到仓库历史提交中，走 Commit 比走 Stash 更为合适。
 
-## 3. 🤔 Git 中的 Stash 是什么？
+## 3. Git 中的 Stash 是什么？
 
 stash 本质上就是一个特殊的 commit。
 
@@ -134,7 +134,7 @@ git stash drop
 
 :::
 
-## 4. 🤔 `git stash` 命令的作用是什么？
+## 4. `git stash` 命令的作用是什么？
 
 `git stash` 的作用是临时保存你的工作区修改，让你的工作目录回到干净的状态（即最近一次 commit 的样子）。
 
@@ -146,7 +146,7 @@ git stash drop
 - 支持部分文件暂存
 - 可以应用或丢弃暂存的更改
 
-## 5. 🤔 和 Stash 相关的 Git 常用命令都有哪些？
+## 5. 和 Stash 相关的 Git 常用命令都有哪些？
 
 ```bash
 git stash                     # 暂存当前修改（已跟踪文件的修改和暂存的内容）
@@ -164,7 +164,7 @@ git stash clear               # 清空所有 stash
 git stash branch new-branch   # 从贮藏创建新分支
 ```
 
-## 6. 🤔 Stash 只存在于本地仓库中吗？
+## 6. Stash 只存在于本地仓库中吗？
 
 是的，stash 只存在于本地仓库中。
 
@@ -182,13 +182,13 @@ git push origin temp-branch    # 推送到远程
 # 这样别人就能拉到你的临时改动了。
 ```
 
-## 7. 🤔 Stash 适合长期保存吗？
+## 7. Stash 适合长期保存吗？
 
 不适合，适合短期暂存（几小时~几天）。
 
 如果需要长期保存或跨设备同步，建议直接建一个临时分支 commit 进去，比 stash 更可靠。
 
-## 8. 🤔 Stash 通常会在什么场景下使用？
+## 8. Stash 通常会在什么场景下使用？
 
 典型使用场景：你正在一个分支上开发，突然需要切到另一个分支修 bug，但当前改动还没完成、不想提交一个半成品 commit。这时就可以用 stash 暂存起来。
 
@@ -206,7 +206,7 @@ git stash pop  # 恢复原来的代码
 
 总结一句话：想要避免临时提交，又不想丢失当前的工作进度，stash 是最好的选择。
 
-## 9. 🤔 每次 `git stash` 都会创建一个新的 `stash@{0}` 吗？
+## 9. 每次 `git stash` 都会创建一个新的 `stash@{0}` 吗？
 
 是的，每次 `git stash` 都会创建一个新的 `stash@{0}`，之前的所有 stash 依次往后挪一位。
 
@@ -231,7 +231,7 @@ git stash pop  # 恢复原来的代码
 | `git stash pop`              | 弹出栈顶 `stash@{0}`，编号全部 `-1` |
 | `git stash drop "stash@{1}"` | 删除指定位置，后面编号依次前移      |
 
-## 10. 🆚 `git stash push -m` vs `git stash save`
+## 10. `git stash push -m` vs `git stash save`
 
 功能上基本相同，都是带描述信息地暂存当前修改。但它们是不同时代的产物：
 
@@ -275,7 +275,7 @@ git stash push --staged -m "只暂存 staged 的部分"
 
 `save` 完全没有这个能力。
 
-## 11. 🤔 Stash 对象和普通 Commit 对象有什么区别？
+## 11. Stash 对象和普通 Commit 对象有什么区别？
 
 普通 commit 通常只有一个 parent，而 stash commit 有多个 parent：
 
@@ -332,7 +332,7 @@ git cat-file -p e063716 # 传入 CommitID 查看特定 Commit 对象文件记录
 
 结构完全一样，唯一的区别就是 parent 数量不同。
 
-## 12. 🤔 为什么 Stash 需要记录多个 parent？
+## 12. 为什么 Stash 需要记录多个 parent？
 
 因为 Stash 需要同时保存多个不同的状态 => 工作目录和暂存区的状态可能不一样。
 

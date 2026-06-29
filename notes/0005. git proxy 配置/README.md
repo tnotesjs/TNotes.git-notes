@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📒 常见的超时报错 443 日志](#1--常见的超时报错-443-日志)
-- [2. 💻 查看代理配置 => git config --get http.proxy](#2--查看代理配置--git-config---get-httpproxy)
-- [3. 💻 设置代理配置 => git config http.proxy 代理地址](#3--设置代理配置--git-config-httpproxy-代理地址)
-- [4. 💻 取消代理配置 => git config --global --unset http.proxy](#4--取消代理配置--git-config---global---unset-httpproxy)
-- [5. 💻 验证配置 => git config --list](#5--验证配置--git-config---list)
+- [1. 常见的超时报错 443 日志](#1-常见的超时报错-443-日志)
+- [2. 查看代理配置 => git config --get http.proxy](#2-查看代理配置--git-config---get-httpproxy)
+- [3. 设置代理配置 => git config http.proxy 代理地址](#3-设置代理配置--git-config-httpproxy-代理地址)
+- [4. 取消代理配置 => git config --global --unset http.proxy](#4-取消代理配置--git-config---global---unset-httpproxy)
+- [5. 验证配置 => git config --list](#5-验证配置--git-config---list)
 
 <!-- endregion:toc -->
 
-## 1. 📒 常见的超时报错 443 日志
+## 1. 常见的超时报错 443 日志
 
 ```shell
 # 在执行某些需要和远程仓库打交道的 git 命令时，可能会出现类似下面这样的超时错误：
@@ -19,7 +19,7 @@ unable to access 'https://xxx/': Failed to connect to github.com port 443 after 
 # 这类错误往往可以通过设置代理来解决。
 ```
 
-## 2. 💻 查看代理配置 => git config --get http.proxy
+## 2. 查看代理配置 => git config --get http.proxy
 
 `git config --get http.proxy` 是一个 Git 命令，用于获取当前配置的 HTTP 代理设置。这个命令会显示 Git 在进行 HTTP 或 HTTPS 通信时使用的代理服务器地址。
 
@@ -57,7 +57,7 @@ git config --system --get http.proxy
 git config --system --get https.proxy
 ```
 
-## 3. 💻 设置代理配置 => git config http.proxy 代理地址
+## 3. 设置代理配置 => git config http.proxy 代理地址
 
 ```shell
 # 设置 HTTP 代理
@@ -70,7 +70,7 @@ git config --system http.proxy http://127.0.0.1:7897
 git config --system https.proxy http://127.0.0.1:7897
 ```
 
-## 4. 💻 取消代理配置 => git config --global --unset http.proxy
+## 4. 取消代理配置 => git config --global --unset http.proxy
 
 ```shell
 git config --local --unset http.proxy
@@ -81,7 +81,7 @@ git config --system --unset http.proxy
 git config --system --unset https.proxy
 ```
 
-## 5. 💻 验证配置 => git config --list
+## 5. 验证配置 => git config --list
 
 - 可以通过 `git config --list` 查看所有配置项，确认 `http.proxy` 和 `https.proxy` 是否正确设置。
 - 也可以通过 `git config --get http.proxy`、`git config --get http.proxy` 来查看代理设置。

@@ -2,31 +2,31 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 GitHub 的核心功能有哪些？](#3--github-的核心功能有哪些)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. GitHub 的核心功能有哪些？](#3-github-的核心功能有哪些)
   - [3.1. Issues](#31-issues)
   - [3.2. GitHub Actions](#32-github-actions)
   - [3.3. GitHub Pages](#33-github-pages)
-- [4. 🤔 GitLab CI/CD 的基础用法是什么？](#4--gitlab-cicd-的基础用法是什么)
-- [5. 🤔 其他 Git 平台有哪些？](#5--其他-git-平台有哪些)
+- [4. GitLab CI/CD 的基础用法是什么？](#4-gitlab-cicd-的基础用法是什么)
+- [5. 其他 Git 平台有哪些？](#5-其他-git-平台有哪些)
   - [5.1. Gitee（码云）](#51-gitee码云)
   - [5.2. Bitbucket](#52-bitbucket)
   - [5.3. 自托管方案](#53-自托管方案)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - GitHub 核心功能（Issues, Actions, Pages）
 - GitLab CI/CD 基础
 - Gitee / Bitbucket 等其他平台
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 GitHub 的核心功能有哪些？
+## 3. GitHub 的核心功能有哪些？
 
 GitHub 是全球最大的代码托管平台，除了基本的 Git 仓库托管外，还提供了丰富的协作和自动化功能。
 
@@ -68,7 +68,7 @@ GitHub Pages 可以直接从仓库部署静态网站：
 - 自动构建 Jekyll 站点
 - 可配合 GitHub Actions 部署其他框架（如 VitePress、Next.js）
 
-## 4. 🤔 GitLab CI/CD 的基础用法是什么？
+## 4. GitLab CI/CD 的基础用法是什么？
 
 GitLab 是一个自托管友好的 Git 平台，其 CI/CD 功能通过 `.gitlab-ci.yml` 配置：
 
@@ -109,7 +109,7 @@ GitLab 的特色功能：
 - 内置 Wiki：项目文档管理
 - DevOps 全链路：从计划、编码到监控的完整工具链
 
-## 5. 🤔 其他 Git 平台有哪些？
+## 5. 其他 Git 平台有哪些？
 
 ### 5.1. Gitee（码云）
 
