@@ -1,9 +1,0 @@
-{
-  "bilibili": [],
-  "tnotes": [],
-  "yuque": [],
-  "done": true,
-  "enableDiscussions": true,
-  "description": "介绍了 git log 的核心用法，涵盖基础查看、格式化输出（如分支图、单行模式）及多维度过滤技巧",
-  "id": "d2db78d4-f6b7-4a43-81b3-7533ff9aaffd"
-}
